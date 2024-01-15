@@ -1,0 +1,6 @@
+{
+    "DockerRun.DisableAutoGenerateConfig": true,
+    "cmake.configureOnOpen": false,
+    "editor.formatOnSave": true,
+    "clang-format.fallbackStyle": "WebKit"
+}

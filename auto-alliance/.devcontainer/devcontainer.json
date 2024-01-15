@@ -1,0 +1,24 @@
+{
+	"name": "creeper",
+	// "image": "slam-release",
+	"image": "slam-develop",
+	"mounts": [
+		{
+			"source": "/tmp/.X11-unix",
+			"target": "/tmp/.X11-unix",
+			"type": "bind"
+		},
+		{
+			"source": "/dev",
+			"target": "/dev",
+			"type": "bind"
+		}
+	],
+	"containerEnv": {
+		"DISPLAY": ":1"
+	},
+	"runArgs": [
+		"--network",
+		"host"
+	]
+}

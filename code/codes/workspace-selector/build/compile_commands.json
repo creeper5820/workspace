@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/workspaces/code/codes/workspace-selector/build",
+  "command": "/usr/bin/g++ -I/workspaces/code/codes/workspace-selector/./src/include -O3 -DNDEBUG -o CMakeFiles/run.dir/src/main.cpp.o -c /workspaces/code/codes/workspace-selector/src/main.cpp",
+  "file": "/workspaces/code/codes/workspace-selector/src/main.cpp"
+}
+]

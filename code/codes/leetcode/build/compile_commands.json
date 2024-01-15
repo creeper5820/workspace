@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/workspaces/space-basic/codes/leetcode/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/question-5.dir/src/question-5.cpp.o -c /workspaces/space-basic/codes/leetcode/src/question-5.cpp",
+  "file": "/workspaces/space-basic/codes/leetcode/src/question-5.cpp"
+}
+]

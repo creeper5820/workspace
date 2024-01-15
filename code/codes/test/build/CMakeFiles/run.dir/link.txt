@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/run.dir/src/main.c.o CMakeFiles/run.dir/src/include/hello.c.o -o run 
