@@ -7,14 +7,14 @@
 
 # =============================================================================
 # Project: selector
-# Configurations: Release
+# Configurations: Debug
 # =============================================================================
 # =============================================================================
 
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__run_Release
+rule CXX_COMPILER__run_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = /usr/bin/g++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule CXX_COMPILER__run_Release
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__run_Release
+rule CXX_EXECUTABLE_LINKER__run_Debug
   command = $PRE_LINK && /usr/bin/g++ $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/workspaces/code/codes/workspace-selector -B/workspaces/code/codes/workspace-selector/build
+  command = /usr/bin/cmake --regenerate-during-build -S/workspaces/codespace/code/codes/workspace-selector -B/workspaces/codespace/code/codes/workspace-selector/build
   description = Re-running CMake...
   generator = 1
 

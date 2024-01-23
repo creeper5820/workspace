@@ -1,6 +1,7 @@
 {
 	"name": "creeper",
 	"image": "embedded",
+	"privileged": true,
 	"mounts": [
 		{
 			"source": "/tmp/.X11-unix",

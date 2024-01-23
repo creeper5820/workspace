@@ -13,11 +13,12 @@ RUN apt-get install -y \
     git \
     sudo
 
+# embedded compiler
 RUN apt-get install -y \
     clang-format clangd \
     gcc-arm-none-eabi dotnet-runtime-6.0
 
-# Install latest vscode
+# latest vscode
 RUN wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg && \
     install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg && \
     sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] \
@@ -54,3 +55,7 @@ RUN code \
     --install-extension Gruntfuggly.global-config \
     --install-extension xaver.clang-format \
     --install-extension cl.eide
+
+COPY .devcontainer/apks/JLink_Linux_V794d_x86_64.deb /home/ubuntu/jlink.deb
+COPY .devcontainer/apks/Ozone_Linux_V330d_x86_64.deb /home/ubuntu/ozone.deb
+COPY .devcontainer/apks/install.sh /home/ubuntu/install.sh

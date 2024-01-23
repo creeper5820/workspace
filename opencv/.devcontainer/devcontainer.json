@@ -1,0 +1,43 @@
+{
+	"name": "opencv",
+	"image": "opencv",
+	"mounts": [
+		{
+			"source": "/tmp/.X11-unix",
+			"target": "/tmp/.X11-unix",
+			"type": "bind"
+		},
+		{
+			"source": "/dev",
+			"target": "/dev",
+			"type": "bind"
+		}
+	],
+	"containerEnv": {
+		"DISPLAY": ":1"
+	},
+	"runArgs": [
+		"--network",
+		"host",
+		"-u",
+		"ubuntu"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"PKief.material-icon-theme",
+				"MS-CEINTL.vscode-language-pack-zh-hans",
+				"cschlosser.doxdocgen",
+				"aaron-bond.better-comments",
+				"llvm-vs-code-extensions.vscode-clangd",
+				"twxs.cmake",
+				"ms-vscode.cmake-tools",
+				"Gruntfuggly.global-config",
+				"ms-vscode.hexeditor",
+				"yzhang.markdown-all-in-one",
+				"xaver.clang-format",
+				"ms-vscode.cpptools"
+			]
+		}
+	}
+}

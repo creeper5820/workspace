@@ -29,7 +29,8 @@ int main()
     while (NULL != (dirent_struct = readdir(dirent))) {
         if (DT_DIR == dirent_struct->d_type
             && std::string(".").compare(dirent_struct->d_name)
-            && std::string("..").compare(dirent_struct->d_name)) {
+            && std::string("..").compare(dirent_struct->d_name)
+            && '.' != dirent_struct->d_name[0]) {
 
             dirent_list.push_back(dirent_struct->d_name);
             std::cout << " " << order << ". " << dirent_struct->d_name << NONE;

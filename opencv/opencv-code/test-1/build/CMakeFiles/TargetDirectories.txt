@@ -1,0 +1,4 @@
+/workspaces/codespace/opencv/opencv-code/test-1/build/CMakeFiles/run.dir
+/workspaces/codespace/opencv/opencv-code/test-1/build/CMakeFiles/test.dir
+/workspaces/codespace/opencv/opencv-code/test-1/build/CMakeFiles/edit_cache.dir
+/workspaces/codespace/opencv/opencv-code/test-1/build/CMakeFiles/rebuild_cache.dir

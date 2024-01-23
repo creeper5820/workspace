@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: selector
-# Configurations: Release
+# Configurations: Debug
 # =============================================================================
 
 #############################################
@@ -24,7 +24,7 @@ ninja_required_version = 1.5
 #############################################
 # Set configuration variable for custom commands.
 
-CONFIGURATION = Release
+CONFIGURATION = Debug
 # =============================================================================
 # Include auxiliary files.
 
@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /workspaces/code/codes/workspace-selector/build/
+cmake_ninja_workdir = /workspaces/codespace/code/codes/workspace-selector/build/
 # =============================================================================
 # Object build statements for EXECUTABLE target run
 
@@ -49,10 +49,10 @@ cmake_ninja_workdir = /workspaces/code/codes/workspace-selector/build/
 
 build cmake_object_order_depends_target_run: phony || CMakeFiles/run.dir
 
-build CMakeFiles/run.dir/src/main.cpp.o: CXX_COMPILER__run_Release /workspaces/code/codes/workspace-selector/src/main.cpp || cmake_object_order_depends_target_run
+build CMakeFiles/run.dir/src/main.cpp.o: CXX_COMPILER__run_Debug /workspaces/codespace/code/codes/workspace-selector/src/main.cpp || cmake_object_order_depends_target_run
   DEP_FILE = CMakeFiles/run.dir/src/main.cpp.o.d
-  FLAGS = -O3 -DNDEBUG
-  INCLUDES = -I/workspaces/code/codes/workspace-selector/./src/include
+  FLAGS = -g
+  INCLUDES = -I/workspaces/codespace/code/codes/workspace-selector/./src/include
   OBJECT_DIR = CMakeFiles/run.dir
   OBJECT_FILE_DIR = CMakeFiles/run.dir/src
 
@@ -64,8 +64,8 @@ build CMakeFiles/run.dir/src/main.cpp.o: CXX_COMPILER__run_Release /workspaces/c
 #############################################
 # Link the executable run
 
-build run: CXX_EXECUTABLE_LINKER__run_Release CMakeFiles/run.dir/src/main.cpp.o
-  FLAGS = -O3 -DNDEBUG
+build run: CXX_EXECUTABLE_LINKER__run_Debug CMakeFiles/run.dir/src/main.cpp.o
+  FLAGS = -g
   OBJECT_DIR = CMakeFiles/run.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -77,7 +77,7 @@ build run: CXX_EXECUTABLE_LINKER__run_Release CMakeFiles/run.dir/src/main.cpp.o
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /workspaces/code/codes/workspace-selector/build && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /workspaces/codespace/code/codes/workspace-selector/build && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -88,7 +88,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /workspaces/code/codes/workspace-selector/build && /usr/bin/cmake --regenerate-during-build -S/workspaces/code/codes/workspace-selector -B/workspaces/code/codes/workspace-selector/build
+  COMMAND = cd /workspaces/codespace/code/codes/workspace-selector/build && /usr/bin/cmake --regenerate-during-build -S/workspaces/codespace/code/codes/workspace-selector -B/workspaces/codespace/code/codes/workspace-selector/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -104,7 +104,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /workspaces/code/codes/workspace-selector/build
+# Folder: /workspaces/codespace/code/codes/workspace-selector/build
 
 build all: phony run
 
