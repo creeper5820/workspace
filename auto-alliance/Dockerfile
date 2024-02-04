@@ -10,12 +10,39 @@ RUN sudo apt-get install -y \
     vim wget curl unzip \
     cmake make ninja-build gcc g++
 
-# fast-lio-localization essential
-RUN sudo apt-get install -y \
-    ros-$ROS_DISTRO-ros-numpy \
-    python-dev \
-    python3-pip && \
-    pip3 install open3d==0.10
+# remove the sdk-1 and driver-1
+RUN rm -rf ~/Livox-SDK ~/ws_livox
+
+# install the sdk-2 and driver-2
+RUN git clone https://github.com/Livox-SDK/Livox-SDK2.git /home/mars_ugv/mid-360-sdk && \
+    git clone https://github.com/Livox-SDK/livox_ros_driver2.git /home/mars_ugv/mid-360-driver/src/livox_ros_driver2
+
+# build and install sdk
+RUN cd /home/mars_ugv/mid-360-sdk && \
+    mkdir build && cd build && \
+    cmake ../ && \
+    make -j && sudo make install
+
+# configure the mid-360-driver, build and install  it
+RUN cd /home/mars_ugv/mid-360-driver/src/livox_ros_driver2 && \
+    sed -i "s/"192.168.1.12"/"192.168.1.120"/g" ./config/MID360_config.json && \
+    source /opt/ros/noetic/setup.sh && \
+    ./build.sh ROS1
+
+# fast-localization build dependencies
+RUN sudo apt install -y python3-pip && \
+    pip install open3d==0.10.0 && \
+    sudo apt install -y ros-$ROS_DISTRO-ros-numpy && \
+    yes | pip uninstall numpy && \
+    pip install numpy==1.20.3
+
+# all the thread to _thread
+# install the fast-lio-localization
+
+RUN sudo apt-get -y install \
+    ros-$ROS_DISTRO-foxglove-bridge
+
+COPY ./files/sh /home/mars_ugv/sh
 
 ENTRYPOINT [ "/ros_entrypoint.sh" ]
 
@@ -23,41 +50,12 @@ FROM slam-release AS slam-develop
 
 # develop tools install
 RUN sudo apt-get install -y \
-    zsh software-properties-common \
-    clang-format clangd git
+    zsh clang-format clangd
 
 # install oh my zsh & change theme to af-magic
 RUN sudo wget https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh -O zsh-install.sh && \
     sudo chmod +x ./zsh-install.sh && ./zsh-install.sh && \
-    sed -i 's/ZSH_THEME=\"[a-z0-9\-]*\"/ZSH_THEME="af-magic"/g' ~/.zshrc
+    sed -i 's/ZSH_THEME=\"[a-z0-9\-]*\"/ZSH_THEME="af-magic"/g' ~/.zshrc && \
+    sudo rm ./zsh-install.sh
 
-# install latest vscode
-RUN sudo wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-
-RUN sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg && \
-    rm -f packages.microsoft.gpg
-
-Run sudo apt-get update && \
-    sudo apt-get install -y code
-
-# install vscode extensions
-RUN code \
-    --extensions-dir  .vscode-server/extensions \
-    --install-extension PKief.material-icon-theme \
-    --install-extension MS-CEINTL.vscode-language-pack-zh-hans \
-    --install-extension cschlosser.doxdocgen \
-    --install-extension aaron-bond.better-comments \
-    --install-extension llvm-vs-code-extensions.vscode-clangd \
-    --install-extension twxs.cmake \
-    --install-extension ms-vscode.cmake-tools \
-    --install-extension Gruntfuggly.global-config \
-    --install-extension ms-vscode.hexeditor \
-    --install-extension yzhang.markdown-all-in-one \
-    --install-extension ms-python.python \
-    --install-extension ms-python.vscode-pylance \
-    --install-extension xaver.clang-format \
-    --install-extension ms-vscode.cpptools 
-
-# source the ros application
-RUN echo "source /opt/ros/noetic/setup.zsh" >> ~/.zshrc && \
-    echo "source ~/ws_livox/devel/setup.zsh" >> ~/.zshrc
+RUN sudo chsh mars_ugv -s /bin/zsh

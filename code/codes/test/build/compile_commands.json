@@ -1,12 +1,7 @@
 [
 {
-  "directory": "/workspaces/code/codes/test/build",
-  "command": "/usr/bin/gcc -I/workspaces/code/codes/test/run -I/workspaces/code/codes/test/./src/include -g -o CMakeFiles/run.dir/src/main.c.o -c /workspaces/code/codes/test/src/main.c",
-  "file": "/workspaces/code/codes/test/src/main.c"
-},
-{
-  "directory": "/workspaces/code/codes/test/build",
-  "command": "/usr/bin/gcc -I/workspaces/code/codes/test/run -I/workspaces/code/codes/test/./src/include -g -o CMakeFiles/run.dir/src/include/hello.c.o -c /workspaces/code/codes/test/src/include/hello.c",
-  "file": "/workspaces/code/codes/test/src/include/hello.c"
+  "directory": "/workspaces/codespace/code/codes/test/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/run.dir/src/main.cpp.o -c /workspaces/codespace/code/codes/test/src/main.cpp",
+  "file": "/workspaces/codespace/code/codes/test/src/main.cpp"
 }
 ]

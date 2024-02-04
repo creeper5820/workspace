@@ -1,6 +1,7 @@
 {
 	"name": "basic",
 	"image": "basic",
+	"privileged": true,
 	"mounts": [
 		{
 			"source": "/tmp/.X11-unix",
@@ -21,5 +22,23 @@
 		"host",
 		"-u",
 		"ubuntu"
-	]
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"PKief.material-icon-theme",
+				"MS-CEINTL.vscode-language-pack-zh-hans",
+				"cschlosser.doxdocgen",
+				"aaron-bond.better-comments",
+				"llvm-vs-code-extensions.vscode-clangd",
+				"twxs.cmake",
+				"ms-vscode.cmake-tools",
+				"Gruntfuggly.global-config",
+				"ms-vscode.hexeditor",
+				"yzhang.markdown-all-in-one",
+				"xaver.clang-format",
+				"ms-vscode.cpptools"
+			]
+		}
+	}
 }

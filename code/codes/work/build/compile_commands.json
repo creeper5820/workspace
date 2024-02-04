@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/workspaces/codespace/code/codes/work/build",
+  "command": "/usr/bin/g++ -I/workspaces/codespace/code/codes/work/./src/include -std=c++20 -g -o CMakeFiles/run.dir/src/main.cpp.o -c /workspaces/codespace/code/codes/work/src/main.cpp",
+  "file": "/workspaces/codespace/code/codes/work/src/main.cpp"
+}
+]

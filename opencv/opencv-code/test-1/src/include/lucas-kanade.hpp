@@ -198,7 +198,7 @@ inline int lucas_kanade(const std::string& file, bool is_save = 0)
             cv::add(frame_new, mask_show, video_show);
             cv::imshow("test-flow", video_show);
 
-            if (cv::waitKey() == 'q')
+            if (cv::waitKey(10) == 'q')
                 return 1;
 
             frames_track++;

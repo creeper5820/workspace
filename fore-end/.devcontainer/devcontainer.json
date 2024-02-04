@@ -1,0 +1,19 @@
+{
+	"name": "blog",
+	"image": "blog",
+	"privileged": true,
+	"mounts": [
+		{
+			"source": "/tmp/.X11-unix",
+			"target": "/tmp/.X11-unix",
+			"type": "bind"
+		}
+	],
+	"containerEnv": {
+		"DISPLAY": ":1"
+	},
+	"runArgs": [
+		"--network",
+		"host"
+	]
+}
