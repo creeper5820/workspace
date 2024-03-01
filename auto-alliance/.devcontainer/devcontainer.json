@@ -1,7 +1,7 @@
 {
 	"name": "slam",
-	// "image": "slam-release",
-	"image": "slam-develop",
+	"image": "slam",
+	// "image": "slam-develop",
 	"privileged": true,
 	"mounts": [
 		{
