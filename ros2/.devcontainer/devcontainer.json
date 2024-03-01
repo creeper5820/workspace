@@ -1,7 +1,6 @@
 {
-	"name": "slam",
-	// "image": "slam-release",
-	"image": "slam-develop",
+	"name": "ros2",
+	"image": "ros2",
 	"privileged": true,
 	"mounts": [
 		{
@@ -15,7 +14,7 @@
 			"type": "bind"
 		},
 		{
-			"source": "${localWorkspaceFolder}/../../codespace-src/auto-alliance-src",
+			"source": "${localWorkspaceFolder}/../../codespace-src/ros2-src",
 			"target": "/root/files",
 			"type": "bind"
 		}
