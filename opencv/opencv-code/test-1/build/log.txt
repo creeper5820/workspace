@@ -1,0 +1,2 @@
+[ WARN:0] global ./modules/videoio/src/cap_gstreamer.cpp (873) open OpenCV | GStreamer warning: Error opening bin: no element "22"
+[ WARN:0] global ./modules/videoio/src/cap_gstreamer.cpp (616) isPipelinePlaying OpenCV | GStreamer warning: GStreamer: pipeline have not been created
