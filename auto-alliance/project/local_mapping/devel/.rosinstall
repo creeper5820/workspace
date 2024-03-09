@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /workspaces/codespace/auto-alliance/project/local_mapping/devel/setup.sh

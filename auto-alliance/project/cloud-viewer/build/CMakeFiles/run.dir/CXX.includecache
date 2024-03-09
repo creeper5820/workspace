@@ -1168,6 +1168,32 @@ boost/shared_ptr.hpp
 pcl/pcl_macros.h
 -
 
+/usr/include/pcl-1.10/pcl/cloud_iterator.h
+pcl/point_cloud.h
+-
+pcl/PointIndices.h
+-
+pcl/correspondence.h
+-
+pcl/impl/cloud_iterator.hpp
+-
+
+/usr/include/pcl-1.10/pcl/common/centroid.h
+pcl/pcl_macros.h
+-
+pcl/point_cloud.h
+-
+pcl/point_traits.h
+-
+pcl/PointIndices.h
+-
+pcl/cloud_iterator.h
+-
+pcl/common/impl/accumulators.hpp
+-
+pcl/common/impl/centroid.hpp
+-
+
 /usr/include/pcl-1.10/pcl/common/colors.h
 pcl/pcl_macros.h
 -
@@ -1208,6 +1234,32 @@ Eigen/Eigenvalues
 pcl/common/impl/eigen.hpp
 -
 
+/usr/include/pcl-1.10/pcl/common/impl/accumulators.hpp
+map
+-
+boost/mpl/filter_view.hpp
+-
+boost/fusion/include/mpl.hpp
+-
+boost/fusion/include/for_each.hpp
+-
+boost/fusion/include/as_vector.hpp
+-
+boost/fusion/include/filter_if.hpp
+-
+pcl/pcl_macros.h
+-
+pcl/point_types.h
+-
+
+/usr/include/pcl-1.10/pcl/common/impl/centroid.hpp
+pcl/common/centroid.h
+-
+pcl/conversions.h
+-
+boost/mpl/size.hpp
+-
+
 /usr/include/pcl-1.10/pcl/common/impl/copy_point.hpp
 pcl/point_types.h
 -
@@ -1234,6 +1286,12 @@ pcl/common/copy_point.h
 pcl/point_types.h
 -
 
+/usr/include/pcl-1.10/pcl/common/impl/transforms.hpp
+xmmintrin.h
+-
+immintrin.h
+-
+
 /usr/include/pcl-1.10/pcl/common/io.h
 numeric
 -
@@ -1258,6 +1316,20 @@ pcl/common/impl/io.hpp
 pcl/point_types.h
 -
 Eigen/src/StlSupport/details.h
+-
+
+/usr/include/pcl-1.10/pcl/common/transforms.h
+pcl/point_cloud.h
+-
+pcl/point_types.h
+-
+pcl/common/centroid.h
+-
+pcl/common/eigen.h
+-
+pcl/PointIndices.h
+-
+pcl/common/impl/transforms.hpp
 -
 
 /usr/include/pcl-1.10/pcl/console/print.h
@@ -1342,6 +1414,10 @@ pcl/pcl_macros.h
 pcl/point_cloud.h
 -
 pcl/ModelCoefficients.h
+-
+
+/usr/include/pcl-1.10/pcl/impl/cloud_iterator.hpp
+pcl/cloud_iterator.h
 -
 
 /usr/include/pcl-1.10/pcl/impl/pcl_base.hpp
@@ -2695,6 +2771,10 @@ inttypes.h
 -
 
 /workspaces/codespace/auto-alliance/project/cloud-viewer/src/main.cpp
+pcl/common/centroid.h
+-
+pcl/common/transforms.h
+-
 pcl/io/pcd_io.h
 -
 pcl/point_cloud.h
@@ -2703,9 +2783,11 @@ pcl/point_types.h
 -
 pcl/visualization/pcl_visualizer.h
 -
+eigen3/Eigen/Dense
+-
 boost/smart_ptr/shared_ptr.hpp
 -
-chrono
+cmath
 -
 iostream
 -
