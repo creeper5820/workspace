@@ -1,0 +1,3 @@
+/workspaces/codespace/auto-alliance/project/cloud-viewer/build/CMakeFiles/rebuild_cache.dir
+/workspaces/codespace/auto-alliance/project/cloud-viewer/build/CMakeFiles/edit_cache.dir
+/workspaces/codespace/auto-alliance/project/cloud-viewer/build/CMakeFiles/run.dir
