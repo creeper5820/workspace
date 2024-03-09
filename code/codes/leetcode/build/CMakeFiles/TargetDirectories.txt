@@ -1,3 +1,0 @@
-/workspaces/space-basic/codes/leetcode/build/CMakeFiles/question-5.dir
-/workspaces/space-basic/codes/leetcode/build/CMakeFiles/edit_cache.dir
-/workspaces/space-basic/codes/leetcode/build/CMakeFiles/rebuild_cache.dir

@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/workspaces/codespace/auto-alliance/project/cloud-viewer/build",
-  "command": "/usr/bin/g++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -g   -o CMakeFiles/run.dir/src/main.cpp.o -c /workspaces/codespace/auto-alliance/project/cloud-viewer/src/main.cpp",
-  "file": "/workspaces/codespace/auto-alliance/project/cloud-viewer/src/main.cpp"
-}
-]

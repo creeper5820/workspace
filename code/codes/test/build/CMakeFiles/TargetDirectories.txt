@@ -1,3 +1,0 @@
-/workspaces/codespace/code/codes/test/build/CMakeFiles/run.dir
-/workspaces/codespace/code/codes/test/build/CMakeFiles/edit_cache.dir
-/workspaces/codespace/code/codes/test/build/CMakeFiles/rebuild_cache.dir

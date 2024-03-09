@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/workspaces/codespace/code/codes/test/build",
-  "command": "/usr/bin/g++ -g -o CMakeFiles/run.dir/src/main.cpp.o -c /workspaces/codespace/code/codes/test/src/main.cpp",
-  "file": "/workspaces/codespace/code/codes/test/src/main.cpp"
-}
-]

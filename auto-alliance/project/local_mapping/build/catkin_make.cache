@@ -1,2 +1,0 @@
-beginner_tutorials
--DCATKIN_DEVEL_PREFIX=/workspaces/codespace/auto-alliance/project/local_mapping/devel -DCMAKE_INSTALL_PREFIX=/workspaces/codespace/auto-alliance/project/local_mapping/install -G Unix Makefiles

@@ -1,3 +1,0 @@
-/home/creeper5820/workspace/codespace/local/cloud-viewer/build/CMakeFiles/run.dir
-/home/creeper5820/workspace/codespace/local/cloud-viewer/build/CMakeFiles/edit_cache.dir
-/home/creeper5820/workspace/codespace/local/cloud-viewer/build/CMakeFiles/rebuild_cache.dir

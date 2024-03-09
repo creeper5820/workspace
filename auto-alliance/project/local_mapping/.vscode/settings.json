@@ -1,9 +1,0 @@
-{
-    "python.autoComplete.extraPaths": [
-        "/opt/ros/noetic/lib/python3/dist-packages"
-    ],
-    "python.analysis.extraPaths": [
-        "/opt/ros/noetic/lib/python3/dist-packages"
-    ],
-    "cmake.sourceDirectory": "/workspaces/codespace/auto-alliance/project/local_mapping/src/hello"
-}
