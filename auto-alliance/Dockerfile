@@ -1,4 +1,3 @@
-# build command : docker build -t slam -f ./Dockerfile-release .
 FROM osrf/ros:noetic-desktop-full 
 
 SHELL ["/bin/bash", "-c"]
@@ -7,9 +6,10 @@ RUN apt-get update
 
 RUN apt-get install -y \
     build-essential \
-    gcc g++ cmake make clang-format clangd \
+    gcc g++ cmake make \
     vim wget curl unzip git zsh \
-    ros-$ROS_DISTRO-foxglove-bridge
+    ros-$ROS_DISTRO-foxglove-bridge \
+    lsb-release software-properties-common gnupg
 
 RUN wget https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh -O zsh-install.sh && \
     chmod +x ./zsh-install.sh && ./zsh-install.sh && \
@@ -39,7 +39,7 @@ RUN cd ~/sdk && \
     cmake ../ && \
     make -j && sudo make install
 
-# build driver (our ip of mid-360 is 192.168.1.12)
+# build driver (our ip of mid-360 is 192.168.1.120)
 RUN cd ~/driver/src/livox_ros_driver2 && \
     source /opt/ros/noetic/setup.sh && \
     ./build.sh ROS1

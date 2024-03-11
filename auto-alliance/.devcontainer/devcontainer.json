@@ -8,11 +8,11 @@
 			"target": "/tmp/.X11-unix",
 			"type": "bind"
 		},
-		{
-			"source": "${localWorkspaceFolder}/../../codespace-src/auto-alliance-src",
-			"target": "/root/files",
-			"type": "bind"
-		}
+		// {
+		// 	"source": "${localWorkspaceFolder}/../../codespace-src/auto-alliance-src",
+		// 	"target": "/root/files",
+		// 	"type": "bind"
+		// }
 	],
 	"containerEnv": {
 		"DISPLAY": ":1"
@@ -34,7 +34,7 @@
 				// "Gruntfuggly.global-config",
 				// "ms-vscode.hexeditor",
 				// "yzhang.markdown-all-in-one",
-				"xaver.clang-format",
+				"xaver.clang-format"
 				// "ms-vscode.cpptools"
 			]
 		}

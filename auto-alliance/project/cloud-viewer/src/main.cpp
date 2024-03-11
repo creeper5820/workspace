@@ -22,35 +22,26 @@ int main()
     auto box_src = pcl::PointCloud<PointType>::Ptr(new pcl::PointCloud<PointType>());
 
     // point cloud
-    for (int x = 0; x < 10; x++)
-        for (int y = 0; y < 10; y++)
-            for (int z = 0; z < 10; z++) {
+    for (int x = 0; x < 50; x++)
+        for (int y = 0; y < 50; y++)
+            for (int z = 0; z < 50; z++) {
                 box_src->push_back(PointType(
-                    static_cast<float>(x) / 10,
-                    static_cast<float>(y) / 10,
-                    static_cast<float>(z) / 10));
+                    static_cast<float>(x) / 50,
+                    static_cast<float>(y) / 50,
+                    static_cast<float>(z) / 50));
             }
 
-    // rotation
-    auto rotation = Eigen::Matrix4f(Eigen::Matrix4f::Identity());
-    double angle_x = M_PI / 4;
-    rotation(1, 1) = std::cos(angle_x);
-    rotation(1, 2) = -std::sin(angle_x);
-    rotation(2, 1) = std::sin(angle_x);
-    rotation(2, 1) = std::cos(angle_x);
-
-    auto rotation2 = Eigen::AngleAxisf();
-    // pcl::transformPointCloud(*box_src, *box_src, rotation);
-
-    // translation
-    auto cloud_center = Eigen::Vector4f();
-    pcl::compute3DCentroid(*box_src, cloud_center);
-    auto translation = Eigen::Matrix4f(Eigen::Matrix4f::Identity());
+    auto rotation = Eigen::Affine3f { Eigen::AngleAxisf(M_PI_4, Eigen::Vector3f::UnitZ()) };
+    auto translation = Eigen::Affine3f { Eigen::Translation3f { -0.5, -0.5, -0.5 } };
+    // auto transform = (rotation * translation).matrix();
     auto transform = rotation * translation;
-    translation(0, 3) = -cloud_center[0];
-    translation(1, 3) = -cloud_center[1];
-    translation(2, 3) = -cloud_center[2];
     pcl::transformPointCloud(*box_src, *box_src, transform);
+
+    for (pcl::PointCloud<PointType>::iterator it = box_src->begin(); it < box_src->end(); it++) {
+        if (1) {
+            box_src->erase(it);
+        }
+    }
 
     // plane
     auto coefficient = pcl::ModelCoefficients();

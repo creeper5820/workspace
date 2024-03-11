@@ -11,8 +11,12 @@ RUN apt-get install -y \
     sudo
 
 RUN apt-get install -y \
-    zsh clangd clang-format\
+    zsh \
     clang-format git 
+
+RUN lsb-release software-properties-common gnupg zsh sudo && \
+    echo -e "\n" | bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)" && \
+    ln -s /usr/bin/clangd-* /usr/bin/clangd
 
 # Add user
 RUN useradd -s /bin/zsh -m ubuntu && echo "ubuntu:ubuntu" | chpasswd && adduser ubuntu sudo && \
