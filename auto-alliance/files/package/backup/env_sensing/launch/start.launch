@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="env_sensing" type="env_sensing_node" name="env_sensing" output="screen">
+        <!-- set a private parameter for the node -->
+        <param name="pcTopic" type="string" value="/cloud_registered_body"/>
+        <param name="mapTopic" type="string" value="/map"/>
+    </node>
+	
+</launch>

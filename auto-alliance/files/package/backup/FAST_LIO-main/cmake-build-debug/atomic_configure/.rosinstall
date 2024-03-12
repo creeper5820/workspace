@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/alliance/lio_ws/src/FAST_LIO-main/cmake-build-debug/devel/setup.sh

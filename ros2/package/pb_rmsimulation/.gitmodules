@@ -1,0 +1,6 @@
+[submodule "src/rm_driver/livox_ros_driver2"]
+	path = src/rm_driver/livox_ros_driver2
+	url = https://gitee.com/SMBU-POLARBEAR/livox_ros_driver2_humble.git
+[submodule "src/rm_perception/pointcloud_downsampling"]
+	path = src/rm_perception/pointcloud_downsampling
+	url = https://gitee.com/LihanChen2004/pointcloud_downsampling.git

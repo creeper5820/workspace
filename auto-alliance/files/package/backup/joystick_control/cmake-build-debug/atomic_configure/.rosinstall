@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/soulde/final_ws/src/SimpleRobotControl/joystick_control/cmake-build-debug/devel/setup.sh

@@ -1,6 +1,7 @@
 #include <ros/ros.h>
 
 #include "beginner_tutorials/add_server.h"
+#include "beginner_tutorials/num.h"
 
 bool add(
     beginner_tutorials::add_server::Request& request,

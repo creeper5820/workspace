@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="ugas" type="ugas_node" name="ugas" output="screen">
+
+    </node>
+
+</launch>

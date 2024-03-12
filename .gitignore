@@ -6,6 +6,10 @@ compile_commands.json
 .clangd
 .cache
 
+*.stl
 *.pcd
+*.bag
+*.step
+*.fbx
 
 fore-end/archer

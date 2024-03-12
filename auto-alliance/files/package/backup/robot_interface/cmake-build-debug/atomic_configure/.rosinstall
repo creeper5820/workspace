@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/alliance/lio_ws/src/robot_interface/cmake-build-debug/devel/setup.sh

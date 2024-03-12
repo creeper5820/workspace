@@ -1,0 +1,8 @@
+# ninja log v5
+30	1202	1690696483173882652	devel/share/roseus/ros/robot_interface/manifest.l	387b5759a6800b6b
+83	187	1690696482153882609	devel/share/gennodejs/ros/robot_interface/msg/Command.js	f43d98aeb4ba43c0
+30	278	1690696482253882613	devel/include/robot_interface/Command.h	b016c8309552c217
+364	540	1690696482505882624	devel/lib/python2.7/dist-packages/robot_interface/msg/__init__.py	701cff918a2c2331
+30	83	1690696482049882605	devel/share/common-lisp/ros/robot_interface/msg/Command.lisp	3a0700af1b3f89f6
+30	124	1690696482093882606	devel/share/roseus/ros/robot_interface/msg/Command.l	7918bded4cc66d1c
+124	364	1690696482329882616	devel/lib/python2.7/dist-packages/robot_interface/msg/_Command.py	f5f87ba304dc5ee0

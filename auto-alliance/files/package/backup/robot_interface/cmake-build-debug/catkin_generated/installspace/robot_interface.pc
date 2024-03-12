@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: robot_interface
+Description: Description of robot_interface
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

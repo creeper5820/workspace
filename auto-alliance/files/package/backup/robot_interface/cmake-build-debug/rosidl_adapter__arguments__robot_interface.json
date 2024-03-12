@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_interface",
+  "non_idl_tuples": [
+    "/home/soulde/sentry_ws/src/robot_interface:srv/LookUpState.srv"
+  ]
+}
