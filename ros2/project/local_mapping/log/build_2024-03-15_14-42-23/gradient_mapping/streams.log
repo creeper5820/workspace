@@ -1,0 +1,23 @@
+[0.059s] Invoking command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping -- -j16 -l16
+[0.092s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.188s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.211s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.211s]   By not providing "Findpcl.cmake" in CMAKE_MODULE_PATH this project has
+[0.211s]   asked CMake to find a package configuration file provided by "pcl", but
+[0.211s]   CMake did not find one.
+[0.211s] 
+[0.211s]   Could not find a package configuration file provided by "pcl" with any of
+[0.211s]   the following names:
+[0.211s] 
+[0.211s]     pclConfig.cmake
+[0.211s]     pcl-config.cmake
+[0.211s] 
+[0.211s]   Add the installation prefix of "pcl" to CMAKE_PREFIX_PATH or set "pcl_DIR"
+[0.212s]   to a directory containing one of the above files.  If "pcl" provides a
+[0.212s]   separate development package or SDK, be sure it has been installed.
+[0.212s] 
+[0.212s] [0m
+[0.212s] -- Configuring incomplete, errors occurred!
+[0.212s] See also "/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping/CMakeFiles/CMakeOutput.log".
+[0.213s] gmake: *** [Makefile:269: cmake_check_build_system] Error 1
+[0.216s] Invoked command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping -- -j16 -l16

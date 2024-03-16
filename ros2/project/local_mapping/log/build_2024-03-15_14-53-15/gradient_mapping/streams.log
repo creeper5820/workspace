@@ -1,0 +1,29 @@
+[0.063s] Invoking command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping -- -j16 -l16
+[0.141s] [ 50%] [32mBuilding CXX object CMakeFiles/gradient_mapping.dir/src/main.cpp.o[0m
+[11.145s] [100%] [32m[1mLinking CXX executable gradient_mapping[0m
+[11.432s] [100%] Built target gradient_mapping
+[11.444s] Invoked command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping -- -j16 -l16
+[11.482s] Invoking command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping
+[11.489s] -- Install configuration: ""
+[11.489s] -- Execute custom install script
+[11.490s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/rivz.hpp
+[11.490s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/transform.hpp
+[11.490s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/gradient_mapping/gradient_mapping
+[11.490s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/ament_index/resource_index/package_run_dependencies/gradient_mapping
+[11.490s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/ament_index/resource_index/parent_prefix_path/gradient_mapping
+[11.491s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/ament_prefix_path.sh
+[11.491s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/ament_prefix_path.dsv
+[11.491s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/path.sh
+[11.491s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/path.dsv
+[11.491s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/local_setup.bash
+[11.491s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/local_setup.sh
+[11.491s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/local_setup.zsh
+[11.492s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/local_setup.dsv
+[11.492s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/package.dsv
+[11.501s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/ament_index/resource_index/packages/gradient_mapping
+[11.501s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.501s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.501s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/gradient_mappingConfig.cmake
+[11.501s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/gradient_mappingConfig-version.cmake
+[11.502s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/package.xml
+[11.503s] Invoked command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping

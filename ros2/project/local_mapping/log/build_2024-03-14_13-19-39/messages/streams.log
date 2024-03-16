@@ -1,0 +1,52 @@
+[0.058s] Invoking command in '/workspaces/codespace/ros2/project/local_mapping/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/messages -- -j16 -l16
+[0.083s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.179s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.185s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.205s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.207s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.212s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.221s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.244s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[0.256s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.262s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.418s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.418s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name messages
+[0.418s]   --arguments-file
+[0.418s]   /workspaces/codespace/ros2/project/local_mapping/build/messages/rosidl_adapter__arguments__messages.json
+[0.418s]   --output-dir
+[0.418s]   /workspaces/codespace/ros2/project/local_mapping/build/messages/rosidl_adapter/messages
+[0.418s]   --output-file
+[0.418s]   /workspaces/codespace/ros2/project/local_mapping/build/messages/rosidl_adapter/messages.idls)
+[0.418s]   returned error code 1:
+[0.418s] 
+[0.418s]   Error with: messages CustomMsg uint8[900]
+[0.418s] 
+[0.418s]   Traceback (most recent call last):
+[0.419s] 
+[0.419s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.419s]       return _run_code(code, main_globals, None,
+[0.419s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.419s]       exec(code, run_globals)
+[0.419s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.419s]       sys.exit(main())
+[0.419s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.419s]       abs_idl_file = convert_to_idl(
+[0.419s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.419s]       return convert_msg_to_idl(
+[0.419s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.419s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.419s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 510, in parse_message_string
+[0.419s]       raise InvalidFieldDefinition(line)
+[0.419s] 
+[0.419s]   rosidl_adapter.parser.InvalidFieldDefinition: uint8[900]
+[0.419s] 
+[0.419s] Call Stack (most recent call first):
+[0.419s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.419s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.420s] 
+[0.420s] [0m
+[0.420s] -- Configuring incomplete, errors occurred!
+[0.420s] See also "/workspaces/codespace/ros2/project/local_mapping/build/messages/CMakeFiles/CMakeOutput.log".
+[0.422s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[0.425s] Invoked command in '/workspaces/codespace/ros2/project/local_mapping/build/messages' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/messages -- -j16 -l16

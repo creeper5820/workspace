@@ -1,0 +1,7 @@
+[0.036s] Invoking command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping
+[0.041s] [31mCMake Error at CMakeLists.txt:15:
+[0.041s]   Parse error.  Expected a command name, got unquoted argument with text "-".
+[0.042s] 
+[0.042s] [0m
+[0.042s] -- Configuring incomplete, errors occurred!
+[0.043s] Invoked command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping

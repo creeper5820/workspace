@@ -1,0 +1,26 @@
+[0.058s] Invoking command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping -- -j16 -l16
+[0.090s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.187s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.269s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.271s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.277s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.289s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.306s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.356s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.357s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.481s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.993s] -- Configuring done
+[1.003s] -- Generating done
+[1.004s] -- Build files have been written to: /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping
+[1.031s] [35m[1mConsolidate compiler generated dependencies of target gradient_mapping[0m
+[1.052s] [ 50%] [32mBuilding CXX object CMakeFiles/gradient_mapping.dir/src/main.cpp.o[0m
+[1.317s] In file included from [01m[K/usr/include/pcl/common/common.h:47[m[K,
+[1.317s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:6[m[K:
+[1.317s] [01m[K/usr/include/pcl/point_cloud.h:45:10:[m[K [01;31m[Kfatal error: [m[KEigen/StdVector: No such file or directory
+[1.317s]    45 | #include [01;31m[K<Eigen/StdVector>[m[K
+[1.317s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.317s] compilation terminated.
+[1.321s] gmake[2]: *** [CMakeFiles/gradient_mapping.dir/build.make:76: CMakeFiles/gradient_mapping.dir/src/main.cpp.o] Error 1
+[1.321s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gradient_mapping.dir/all] Error 2
+[1.321s] gmake: *** [Makefile:146: all] Error 2
+[1.323s] Invoked command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping -- -j16 -l16

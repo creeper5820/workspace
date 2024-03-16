@@ -1,0 +1,6 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+/usr/bin/ld: cannot find -lpublic: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/gradient_mapping.dir/build.make:249: gradient_mapping] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gradient_mapping.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

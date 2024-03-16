@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000286] (-) JobUnselected: {'identifier': 'full_matching'}
+[0.000560] (-) JobUnselected: {'identifier': 'messages'}
+[0.000717] (gradient_mapping) JobQueued: {'identifier': 'gradient_mapping', 'dependencies': OrderedDict()}
+[0.000746] (gradient_mapping) JobStarted: {'identifier': 'gradient_mapping'}
+[0.060841] (gradient_mapping) JobProgress: {'identifier': 'gradient_mapping', 'progress': 'cmake'}
+[0.061717] (gradient_mapping) JobProgress: {'identifier': 'gradient_mapping', 'progress': 'build'}
+[0.062430] (gradient_mapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping', '--', '-j16', '-l16'], 'cwd': '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping', 'env': OrderedDict([('HOSTNAME', 'creeper5820-A7S'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/1e790d77f81672c49be070e04474901747115651/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/workspaces/codespace/ros2/project/local_mapping/install/messages/lib:/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib:/root/package/driver/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspaces/codespace/ros2/project/local_mapping'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-26d3d981-16f6-4b76-be42-abbc42dbb25e.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'more'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/1e790d77f81672c49be070e04474901747115651/node'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/workspaces/codespace/ros2/project/local_mapping/install:/root/package/driver/install'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-afd68d93-1eb0-485d-bd04-e8b40cce95d6.sock'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('USER_ZDOTDIR', '/root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/1e790d77f81672c49be070e04474901747115651/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-afd68d93-1eb0-485d-bd04-e8b40cce95d6.sock","/tmp/.X11-unix/X2","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-a5915a235f.sock'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-afd68d93-1eb0-485d-bd04-e8b40cce95d6.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('AMENT_PREFIX_PATH', '/workspaces/codespace/ros2/project/local_mapping/install/messages:/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping:/workspaces/codespace/ros2/project/local_mapping/install/full_matching:/root/package/driver/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/zsh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LC_ALL', 'C.UTF-8'), ('PWD', '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping'), ('ZDOTDIR', '/root'), ('PYTHONPATH', '/workspaces/codespace/ros2/project/local_mapping/install/messages/local/lib/python3.10/dist-packages:/root/package/driver/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/codespace/ros2/project/local_mapping/install/messages:/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping:/workspaces/codespace/ros2/project/local_mapping/install/full_matching:/root/package/driver/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[0.099808] (-) TimerEvent: {}
+[0.141521] (gradient_mapping) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gradient_mapping.dir/src/main.cpp.o\x1b[0m\n'}
+[0.199921] (-) TimerEvent: {}
+[0.300219] (-) TimerEvent: {}
+[0.400498] (-) TimerEvent: {}
+[0.500828] (-) TimerEvent: {}
+[0.601180] (-) TimerEvent: {}
+[0.701498] (-) TimerEvent: {}
+[0.801798] (-) TimerEvent: {}
+[0.902102] (-) TimerEvent: {}
+[1.002413] (-) TimerEvent: {}
+[1.102703] (-) TimerEvent: {}
+[1.202974] (-) TimerEvent: {}
+[1.303286] (-) TimerEvent: {}
+[1.403570] (-) TimerEvent: {}
+[1.503861] (-) TimerEvent: {}
+[1.604143] (-) TimerEvent: {}
+[1.704422] (-) TimerEvent: {}
+[1.804711] (-) TimerEvent: {}
+[1.904986] (-) TimerEvent: {}
+[2.005270] (-) TimerEvent: {}
+[2.105560] (-) TimerEvent: {}
+[2.205866] (-) TimerEvent: {}
+[2.306169] (-) TimerEvent: {}
+[2.406463] (-) TimerEvent: {}
+[2.506768] (-) TimerEvent: {}
+[2.607061] (-) TimerEvent: {}
+[2.707353] (-) TimerEvent: {}
+[2.807649] (-) TimerEvent: {}
+[2.908009] (-) TimerEvent: {}
+[3.008312] (-) TimerEvent: {}
+[3.108607] (-) TimerEvent: {}
+[3.208894] (-) TimerEvent: {}
+[3.309177] (-) TimerEvent: {}
+[3.409522] (-) TimerEvent: {}
+[3.509817] (-) TimerEvent: {}
+[3.610109] (-) TimerEvent: {}
+[3.710436] (-) TimerEvent: {}
+[3.810740] (-) TimerEvent: {}
+[3.911083] (-) TimerEvent: {}
+[4.011386] (-) TimerEvent: {}
+[4.111681] (-) TimerEvent: {}
+[4.211961] (-) TimerEvent: {}
+[4.312235] (-) TimerEvent: {}
+[4.412533] (-) TimerEvent: {}
+[4.512827] (-) TimerEvent: {}
+[4.613106] (-) TimerEvent: {}
+[4.713434] (-) TimerEvent: {}
+[4.813732] (-) TimerEvent: {}
+[4.914042] (-) TimerEvent: {}
+[5.014358] (-) TimerEvent: {}
+[5.114670] (-) TimerEvent: {}
+[5.214982] (-) TimerEvent: {}
+[5.315270] (-) TimerEvent: {}
+[5.415571] (-) TimerEvent: {}
+[5.515861] (-) TimerEvent: {}
+[5.616156] (-) TimerEvent: {}
+[5.716471] (-) TimerEvent: {}
+[5.816757] (-) TimerEvent: {}
+[5.917049] (-) TimerEvent: {}
+[6.017346] (-) TimerEvent: {}
+[6.117639] (-) TimerEvent: {}
+[6.217925] (-) TimerEvent: {}
+[6.318222] (-) TimerEvent: {}
+[6.418502] (-) TimerEvent: {}
+[6.518813] (-) TimerEvent: {}
+[6.619110] (-) TimerEvent: {}
+[6.719410] (-) TimerEvent: {}
+[6.819725] (-) TimerEvent: {}
+[6.920030] (-) TimerEvent: {}
+[7.020329] (-) TimerEvent: {}
+[7.120621] (-) TimerEvent: {}
+[7.220917] (-) TimerEvent: {}
+[7.321262] (-) TimerEvent: {}
+[7.421566] (-) TimerEvent: {}
+[7.521879] (-) TimerEvent: {}
+[7.622174] (-) TimerEvent: {}
+[7.722482] (-) TimerEvent: {}
+[7.822775] (-) TimerEvent: {}
+[7.923063] (-) TimerEvent: {}
+[8.023354] (-) TimerEvent: {}
+[8.123653] (-) TimerEvent: {}
+[8.223934] (-) TimerEvent: {}
+[8.324234] (-) TimerEvent: {}
+[8.424549] (-) TimerEvent: {}
+[8.524853] (-) TimerEvent: {}
+[8.625160] (-) TimerEvent: {}
+[8.725524] (-) TimerEvent: {}
+[8.825819] (-) TimerEvent: {}
+[8.926121] (-) TimerEvent: {}
+[9.026419] (-) TimerEvent: {}
+[9.126716] (-) TimerEvent: {}
+[9.227017] (-) TimerEvent: {}
+[9.327310] (-) TimerEvent: {}
+[9.427608] (-) TimerEvent: {}
+[9.527887] (-) TimerEvent: {}
+[9.628156] (-) TimerEvent: {}
+[9.728456] (-) TimerEvent: {}
+[9.828752] (-) TimerEvent: {}
+[9.929044] (-) TimerEvent: {}
+[10.029346] (-) TimerEvent: {}
+[10.129636] (-) TimerEvent: {}
+[10.229924] (-) TimerEvent: {}
+[10.330239] (-) TimerEvent: {}
+[10.430532] (-) TimerEvent: {}
+[10.530835] (-) TimerEvent: {}
+[10.631127] (-) TimerEvent: {}
+[10.731408] (-) TimerEvent: {}
+[10.831678] (-) TimerEvent: {}
+[10.931985] (-) TimerEvent: {}
+[11.032313] (-) TimerEvent: {}
+[11.132617] (-) TimerEvent: {}
+[11.146100] (gradient_mapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gradient_mapping\x1b[0m\n'}
+[11.232740] (-) TimerEvent: {}
+[11.333046] (-) TimerEvent: {}
+[11.432267] (gradient_mapping) StdoutLine: {'line': b'[100%] Built target gradient_mapping\n'}
+[11.433142] (-) TimerEvent: {}
+[11.443768] (gradient_mapping) CommandEnded: {'returncode': 0}
+[11.473342] (gradient_mapping) JobProgress: {'identifier': 'gradient_mapping', 'progress': 'install'}
+[11.482178] (gradient_mapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping'], 'cwd': '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping', 'env': OrderedDict([('HOSTNAME', 'creeper5820-A7S'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/1e790d77f81672c49be070e04474901747115651/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/workspaces/codespace/ros2/project/local_mapping/install/messages/lib:/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib:/root/package/driver/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspaces/codespace/ros2/project/local_mapping'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-26d3d981-16f6-4b76-be42-abbc42dbb25e.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'more'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/1e790d77f81672c49be070e04474901747115651/node'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/workspaces/codespace/ros2/project/local_mapping/install:/root/package/driver/install'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-afd68d93-1eb0-485d-bd04-e8b40cce95d6.sock'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('USER_ZDOTDIR', '/root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/1e790d77f81672c49be070e04474901747115651/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-afd68d93-1eb0-485d-bd04-e8b40cce95d6.sock","/tmp/.X11-unix/X2","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-a5915a235f.sock'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-afd68d93-1eb0-485d-bd04-e8b40cce95d6.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('AMENT_PREFIX_PATH', '/workspaces/codespace/ros2/project/local_mapping/install/messages:/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping:/workspaces/codespace/ros2/project/local_mapping/install/full_matching:/root/package/driver/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/zsh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LC_ALL', 'C.UTF-8'), ('PWD', '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping'), ('ZDOTDIR', '/root'), ('PYTHONPATH', '/workspaces/codespace/ros2/project/local_mapping/install/messages/local/lib/python3.10/dist-packages:/root/package/driver/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/codespace/ros2/project/local_mapping/install/messages:/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping:/workspaces/codespace/ros2/project/local_mapping/install/full_matching:/root/package/driver/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[11.489671] (gradient_mapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.490068] (gradient_mapping) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.490413] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/rivz.hpp\n'}
+[11.490532] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/transform.hpp\n'}
+[11.490809] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/gradient_mapping/gradient_mapping\n'}
+[11.490981] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/ament_index/resource_index/package_run_dependencies/gradient_mapping\n'}
+[11.491140] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/ament_index/resource_index/parent_prefix_path/gradient_mapping\n'}
+[11.491289] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/ament_prefix_path.sh\n'}
+[11.491431] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/ament_prefix_path.dsv\n'}
+[11.491573] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/path.sh\n'}
+[11.491714] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/path.dsv\n'}
+[11.491862] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/local_setup.bash\n'}
+[11.491985] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/local_setup.sh\n'}
+[11.492114] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/local_setup.zsh\n'}
+[11.492249] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/local_setup.dsv\n'}
+[11.492347] (gradient_mapping) StdoutLine: {'line': b'-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/package.dsv\n'}
+[11.501482] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/ament_index/resource_index/packages/gradient_mapping\n'}
+[11.501661] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.501830] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.502014] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/gradient_mappingConfig.cmake\n'}
+[11.502151] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/gradient_mappingConfig-version.cmake\n'}
+[11.502311] (gradient_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/package.xml\n'}
+[11.503960] (gradient_mapping) CommandEnded: {'returncode': 0}
+[11.533400] (-) TimerEvent: {}
+[11.634013] (-) TimerEvent: {}
+[11.638800] (gradient_mapping) JobEnded: {'identifier': 'gradient_mapping', 'rc': 0}
+[11.639364] (-) EventReactorShutdown: {}

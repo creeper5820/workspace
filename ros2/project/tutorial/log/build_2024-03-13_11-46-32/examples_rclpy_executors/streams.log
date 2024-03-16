@@ -1,0 +1,26 @@
+[1.973s] Invoking command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_executors': PYTHONPATH=/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_executors/prefix_override:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_executors/lib/python3.10/site-packages: /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_executors/build --no-deps install_data
+[2.598s] running develop
+[2.621s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.622s]   warnings.warn(
+[2.623s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.624s]   warnings.warn(
+[2.825s] running egg_info
+[2.826s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[2.827s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[2.828s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[2.829s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[2.831s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[2.835s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.850s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.853s] running build_ext
+[2.854s] Creating /workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_executors/lib/python3.10/site-packages/examples-rclpy-executors.egg-link (link to .)
+[2.857s] Installing callback_group script to /workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.858s] Installing composed script to /workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.860s] Installing custom_callback_group script to /workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.861s] Installing custom_executor script to /workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.863s] Installing listener script to /workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.865s] Installing talker script to /workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.866s] 
+[2.867s] Installed /workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_executors
+[2.868s] running install_data
+[2.977s] Invoked command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_executors' returned '0': PYTHONPATH=/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_executors/prefix_override:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_executors/lib/python3.10/site-packages: /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_executors/build --no-deps install_data

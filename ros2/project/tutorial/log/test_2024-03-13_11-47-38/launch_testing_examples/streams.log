@@ -1,0 +1,105 @@
+[0.604s] Invoking command in '/workspaces/codespace/ros2/project/tutorial/src/examples/launch_testing/launch_testing_examples': AMENT_PREFIX_PATH=/workspaces/codespace/ros2/project/tutorial/install/launch_testing_examples PYTEST_ADDOPTS=--tb=short --junit-xml=/workspaces/codespace/ros2/project/tutorial/build/launch_testing_examples/pytest.xml --junit-prefix=launch_testing_examples -o cache_dir=/workspaces/codespace/ros2/project/tutorial/build/launch_testing_examples/.pytest_cache PYTHONPATH=/workspaces/codespace/ros2/project/tutorial/build/launch_testing_examples:/workspaces/codespace/ros2/project/tutorial/install/launch_testing_examples/lib/python3.10/site-packages /usr/bin/python3 -m pytest
+[0.727s] [1m============================= test session starts ==============================[0m
+[0.727s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.728s] cachedir: /workspaces/codespace/ros2/project/tutorial/build/launch_testing_examples/.pytest_cache
+[0.728s] rootdir: /workspaces/codespace/ros2/project/tutorial/src/examples/launch_testing/launch_testing_examples
+[0.728s] plugins: colcon-core-0.15.2
+[0.781s] [1mcollecting ... [0m[1m
+[0.781s] collected 0 items / 9 errors                                                   [0m
+[0.804s] 
+[0.804s] ==================================== ERRORS ====================================
+[0.805s] [31m[1m______ ERROR collecting launch_testing_examples/check_msgs_launch_test.py ______[0m
+[0.805s] [31mImportError while importing test module '/workspaces/codespace/ros2/project/tutorial/src/examples/launch_testing/launch_testing_examples/launch_testing_examples/check_msgs_launch_test.py'.
+[0.805s] Hint: make sure your test modules/packages have valid Python names.
+[0.805s] Traceback:
+[0.805s] /usr/lib/python3.10/importlib/__init__.py:126: in import_module
+[0.805s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.805s] launch_testing_examples/check_msgs_launch_test.py:17: in <module>
+[0.805s]     import launch
+[0.805s] E   ModuleNotFoundError: No module named 'launch'[0m
+[0.805s] [31m[1m_ ERROR collecting launch_testing_examples/check_multiple_nodes_launch_test.py _[0m
+[0.805s] [31mImportError while importing test module '/workspaces/codespace/ros2/project/tutorial/src/examples/launch_testing/launch_testing_examples/launch_testing_examples/check_multiple_nodes_launch_test.py'.
+[0.805s] Hint: make sure your test modules/packages have valid Python names.
+[0.805s] Traceback:
+[0.805s] /usr/lib/python3.10/importlib/__init__.py:126: in import_module
+[0.805s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.805s] launch_testing_examples/check_multiple_nodes_launch_test.py:21: in <module>
+[0.806s]     import launch
+[0.806s] E   ModuleNotFoundError: No module named 'launch'[0m
+[0.806s] [31m[1m______ ERROR collecting launch_testing_examples/check_node_launch_test.py ______[0m
+[0.806s] [31mImportError while importing test module '/workspaces/codespace/ros2/project/tutorial/src/examples/launch_testing/launch_testing_examples/launch_testing_examples/check_node_launch_test.py'.
+[0.806s] Hint: make sure your test modules/packages have valid Python names.
+[0.806s] Traceback:
+[0.806s] /usr/lib/python3.10/importlib/__init__.py:126: in import_module
+[0.806s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.806s] launch_testing_examples/check_node_launch_test.py:18: in <module>
+[0.806s]     import launch
+[0.806s] E   ModuleNotFoundError: No module named 'launch'[0m
+[0.806s] [31m[1m_____ ERROR collecting launch_testing_examples/hello_world_launch_test.py ______[0m
+[0.806s] [31mImportError while importing test module '/workspaces/codespace/ros2/project/tutorial/src/examples/launch_testing/launch_testing_examples/launch_testing_examples/hello_world_launch_test.py'.
+[0.806s] Hint: make sure your test modules/packages have valid Python names.
+[0.806s] Traceback:
+[0.806s] /usr/lib/python3.10/importlib/__init__.py:126: in import_module
+[0.806s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.806s] launch_testing_examples/hello_world_launch_test.py:17: in <module>
+[0.806s]     import launch
+[0.806s] E   ModuleNotFoundError: No module named 'launch'[0m
+[0.807s] [31m[1m____ ERROR collecting launch_testing_examples/record_rosbag_launch_test.py _____[0m
+[0.807s] [31mImportError while importing test module '/workspaces/codespace/ros2/project/tutorial/src/examples/launch_testing/launch_testing_examples/launch_testing_examples/record_rosbag_launch_test.py'.
+[0.807s] Hint: make sure your test modules/packages have valid Python names.
+[0.807s] Traceback:
+[0.807s] /usr/lib/python3.10/importlib/__init__.py:126: in import_module
+[0.807s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.807s] launch_testing_examples/record_rosbag_launch_test.py:22: in <module>
+[0.807s]     import launch
+[0.807s] E   ModuleNotFoundError: No module named 'launch'[0m
+[0.807s] [31m[1m______ ERROR collecting launch_testing_examples/set_param_launch_test.py _______[0m
+[0.807s] [31mImportError while importing test module '/workspaces/codespace/ros2/project/tutorial/src/examples/launch_testing/launch_testing_examples/launch_testing_examples/set_param_launch_test.py'.
+[0.807s] Hint: make sure your test modules/packages have valid Python names.
+[0.807s] Traceback:
+[0.807s] /usr/lib/python3.10/importlib/__init__.py:126: in import_module
+[0.807s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.807s] launch_testing_examples/set_param_launch_test.py:18: in <module>
+[0.807s]     import launch
+[0.807s] E   ModuleNotFoundError: No module named 'launch'[0m
+[0.807s] [31m[1m___________________ ERROR collecting test/test_copyright.py ____________________[0m
+[0.807s] [31mImportError while importing test module '/workspaces/codespace/ros2/project/tutorial/src/examples/launch_testing/launch_testing_examples/test/test_copyright.py'.
+[0.807s] Hint: make sure your test modules/packages have valid Python names.
+[0.808s] Traceback:
+[0.808s] /usr/lib/python3.10/importlib/__init__.py:126: in import_module
+[0.808s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.808s] test/test_copyright.py:15: in <module>
+[0.808s]     from ament_copyright.main import main
+[0.808s] E   ModuleNotFoundError: No module named 'ament_copyright'[0m
+[0.808s] [31m[1m_____________________ ERROR collecting test/test_flake8.py _____________________[0m
+[0.808s] [31mImportError while importing test module '/workspaces/codespace/ros2/project/tutorial/src/examples/launch_testing/launch_testing_examples/test/test_flake8.py'.
+[0.808s] Hint: make sure your test modules/packages have valid Python names.
+[0.808s] Traceback:
+[0.808s] /usr/lib/python3.10/importlib/__init__.py:126: in import_module
+[0.808s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.808s] test/test_flake8.py:15: in <module>
+[0.808s]     from ament_flake8.main import main_with_errors
+[0.808s] E   ModuleNotFoundError: No module named 'ament_flake8'[0m
+[0.808s] [31m[1m_____________________ ERROR collecting test/test_pep257.py _____________________[0m
+[0.808s] [31mImportError while importing test module '/workspaces/codespace/ros2/project/tutorial/src/examples/launch_testing/launch_testing_examples/test/test_pep257.py'.
+[0.808s] Hint: make sure your test modules/packages have valid Python names.
+[0.808s] Traceback:
+[0.808s] /usr/lib/python3.10/importlib/__init__.py:126: in import_module
+[0.808s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.809s] test/test_pep257.py:15: in <module>
+[0.809s]     from ament_pep257.main import main
+[0.809s] E   ModuleNotFoundError: No module named 'ament_pep257'[0m
+[0.809s] - generated xml file: /workspaces/codespace/ros2/project/tutorial/build/launch_testing_examples/pytest.xml -
+[0.809s] =========================== short test summary info ============================
+[0.809s] ERROR launch_testing_examples/check_msgs_launch_test.py
+[0.809s] ERROR launch_testing_examples/check_multiple_nodes_launch_test.py
+[0.809s] ERROR launch_testing_examples/check_node_launch_test.py
+[0.809s] ERROR launch_testing_examples/hello_world_launch_test.py
+[0.809s] ERROR launch_testing_examples/record_rosbag_launch_test.py
+[0.809s] ERROR launch_testing_examples/set_param_launch_test.py
+[0.809s] ERROR test/test_copyright.py
+[0.809s] ERROR test/test_flake8.py
+[0.809s] ERROR test/test_pep257.py
+[0.809s] !!!!!!!!!!!!!!!!!!! Interrupted: 9 errors during collection !!!!!!!!!!!!!!!!!!!!
+[0.809s] [31m============================== [31m[1m9 errors[0m[31m in 0.08s[0m[31m ===============================[0m
+[0.820s] Invoked command in '/workspaces/codespace/ros2/project/tutorial/src/examples/launch_testing/launch_testing_examples' returned '2': AMENT_PREFIX_PATH=/workspaces/codespace/ros2/project/tutorial/install/launch_testing_examples PYTEST_ADDOPTS=--tb=short --junit-xml=/workspaces/codespace/ros2/project/tutorial/build/launch_testing_examples/pytest.xml --junit-prefix=launch_testing_examples -o cache_dir=/workspaces/codespace/ros2/project/tutorial/build/launch_testing_examples/.pytest_cache PYTHONPATH=/workspaces/codespace/ros2/project/tutorial/build/launch_testing_examples:/workspaces/codespace/ros2/project/tutorial/install/launch_testing_examples/lib/python3.10/site-packages /usr/bin/python3 -m pytest

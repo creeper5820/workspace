@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/ament_index/resource_index/package_run_dependencies/full_matching
+-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/ament_index/resource_index/parent_prefix_path/full_matching
+-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/environment/path.sh
+-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/environment/path.dsv
+-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/local_setup.bash
+-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/local_setup.sh
+-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/local_setup.zsh
+-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/local_setup.dsv
+-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/package.dsv
+-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/ament_index/resource_index/packages/full_matching
+-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/cmake/full_matchingConfig.cmake
+-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/cmake/full_matchingConfig-version.cmake
+-- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/package.xml

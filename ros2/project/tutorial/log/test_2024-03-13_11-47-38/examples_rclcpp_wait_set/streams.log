@@ -1,0 +1,101 @@
+[0.781s] Invoking command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set': AMENT_PREFIX_PATH=/workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set CMAKE_PREFIX_PATH=/workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set LD_LIBRARY_PATH=/workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.995s] UpdateCTestConfiguration  from :/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.995s] Parse Config file:/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.995s]    Site: creeper5820-A7S
+[0.995s]    Build name: (empty)
+[0.995s]  Add coverage exclude regular expressions.
+[0.995s] Create new tag: 20240313-1147 - Experimental
+[0.995s] UpdateCTestConfiguration  from :/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.995s] Parse Config file:/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.995s] Test project /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set
+[0.995s] Constructing a list of tests
+[0.995s] Done constructing a list of tests
+[0.995s] Updating test list for fixtures
+[0.995s] Added 0 tests to meet fixture requirements
+[0.995s] Checking test dependency graph...
+[0.995s] Checking test dependency graph end
+[0.995s] test 1
+[0.995s]     Start 1: copyright
+[0.995s] 
+[0.995s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml"
+[0.996s] 1: Test timeout computed to be: 200
+[0.996s] 1: Traceback (most recent call last):
+[0.996s] 1:   File "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py", line 19, in <module>
+[0.996s] 1:     import ament_cmake_test
+[0.996s] 1: ModuleNotFoundError: No module named 'ament_cmake_test'
+[0.996s] 1/6 Test #1: copyright ........................***Failed    0.02 sec
+[0.996s] test 2
+[0.996s]     Start 2: cppcheck
+[0.996s] 
+[0.996s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--include_dirs" "/workspaces/codespace/ros2/project/tutorial/src/examples/rclcpp/wait_set/include"
+[0.996s] 2: Test timeout computed to be: 300
+[0.996s] 2: Traceback (most recent call last):
+[0.996s] 2:   File "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py", line 19, in <module>
+[0.996s] 2:     import ament_cmake_test
+[0.996s] 2: ModuleNotFoundError: No module named 'ament_cmake_test'
+[0.996s] 2/6 Test #2: cppcheck .........................***Failed    0.03 sec
+[0.996s] test 3
+[0.996s]     Start 3: cpplint
+[0.996s] 
+[0.996s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml"
+[0.996s] 3: Test timeout computed to be: 120
+[0.997s] 3: Traceback (most recent call last):
+[0.997s] 3:   File "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py", line 19, in <module>
+[0.997s] 3:     import ament_cmake_test
+[0.997s] 3: ModuleNotFoundError: No module named 'ament_cmake_test'
+[0.997s] 3/6 Test #3: cpplint ..........................***Failed    0.03 sec
+[0.997s] test 4
+[0.997s]     Start 4: lint_cmake
+[0.997s] 
+[1.002s] Errors while running CTest
+[1.002s] Output from these tests are in: /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/Testing/Temporary/LastTest.log
+[1.002s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[1.004s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml"
+[1.004s] 4: Test timeout computed to be: 60
+[1.004s] 4: Traceback (most recent call last):
+[1.005s] 4:   File "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py", line 19, in <module>
+[1.005s] 4:     import ament_cmake_test
+[1.005s] 4: ModuleNotFoundError: No module named 'ament_cmake_test'
+[1.005s] 4/6 Test #4: lint_cmake .......................***Failed    0.04 sec
+[1.005s] test 5
+[1.005s]     Start 5: uncrustify
+[1.005s] 
+[1.005s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml"
+[1.005s] 5: Test timeout computed to be: 60
+[1.005s] 5: Traceback (most recent call last):
+[1.005s] 5:   File "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py", line 19, in <module>
+[1.005s] 5:     import ament_cmake_test
+[1.005s] 5: ModuleNotFoundError: No module named 'ament_cmake_test'
+[1.005s] 5/6 Test #5: uncrustify .......................***Failed    0.04 sec
+[1.005s] test 6
+[1.005s]     Start 6: xmllint
+[1.005s] 
+[1.005s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml"
+[1.005s] 6: Test timeout computed to be: 60
+[1.005s] 6: Traceback (most recent call last):
+[1.005s] 6:   File "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py", line 19, in <module>
+[1.006s] 6:     import ament_cmake_test
+[1.006s] 6: ModuleNotFoundError: No module named 'ament_cmake_test'
+[1.006s] 6/6 Test #6: xmllint ..........................***Failed    0.02 sec
+[1.006s] 
+[1.006s] 0% tests passed[0;0m, [0;31m6 tests failed[0;0m out of 6
+[1.006s] 
+[1.006s] Label Time Summary:
+[1.006s] copyright     =   0.02 sec*proc (1 test)
+[1.006s] cppcheck      =   0.03 sec*proc (1 test)
+[1.006s] cpplint       =   0.03 sec*proc (1 test)
+[1.006s] lint_cmake    =   0.04 sec*proc (1 test)
+[1.006s] linter        =   0.18 sec*proc (6 tests)
+[1.006s] uncrustify    =   0.04 sec*proc (1 test)
+[1.006s] xmllint       =   0.02 sec*proc (1 test)
+[1.006s] 
+[1.006s] Total Test time (real) =   0.18 sec
+[1.006s] 
+[1.006s] The following tests FAILED:
+[1.006s] 	[0;31m  1 - copyright (Failed)[0;0m
+[1.006s] 	[0;31m  2 - cppcheck (Failed)[0;0m
+[1.007s] 	[0;31m  3 - cpplint (Failed)[0;0m
+[1.007s] 	[0;31m  4 - lint_cmake (Failed)[0;0m
+[1.007s] 	[0;31m  5 - uncrustify (Failed)[0;0m
+[1.007s] 	[0;31m  6 - xmllint (Failed)[0;0m
+[1.142s] Invoked command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set' returned '8': AMENT_PREFIX_PATH=/workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set CMAKE_PREFIX_PATH=/workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set LD_LIBRARY_PATH=/workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

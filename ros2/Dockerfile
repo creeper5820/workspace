@@ -1,4 +1,4 @@
-FROM osrf/ros:humble-desktop-full AS ros2
+FROM osrf/ros:humble-desktop AS ros2
 
 # change the shell when build
 SHELL ["/bin/bash", "-c"]
@@ -21,27 +21,32 @@ RUN apt-get install -y \
 
 # foxglove bridge install
 RUN apt-get -y install \
-    ros-$ROS_DISTRO-foxglove-bridge
+    ros-$ROS_DISTRO-foxglove-bridge 
 
-# install the sdk-2 and driver-2
-RUN git clone https://github.com/Livox-SDK/Livox-SDK2.git ~/sdk && \
-    git clone https://github.com/Livox-SDK/livox_ros_driver2.git ~/driver/src/livox_ros_driver2
+# copy all the packages
+COPY package /root/package
 
-# build and install sdk
-RUN cd ~/sdk && \
+# sdk build 
+RUN cd /root/package/sdk && \
     mkdir build && cd build && \
     cmake ../ && \
-    make -j && sudo make install
+    make -j && sudo make install 
 
-# configure the mid-360-driver, build and install it
-# our ip of mid-360 is 192.168.1.12
-RUN cd ~/driver/src/livox_ros_driver2 && \
-    sed -i "s/"192.168.1.12"/"192.168.1.120"/g" ./config/MID360_config.json && \
+# livox_ros_driver2 build
+# our ip of mid-360 is 192.168.1.120  
+RUN cd /root/package/driver/src/livox_ros_driver2 && \
+    rosdep install --from-paths .. --ignore-src -r -y && \
     source /opt/ros/humble/setup.sh && \
     ./build.sh humble
 
+# fast_lio build
+RUN cd /root/package/fast_lio && \
+    rosdep install --from-paths .. --ignore-src -r -y && \
+    source /root/package/driver/install/setup.bash && \
+    colcon build --symlink-install
+
 RUN chsh root -s /bin/zsh
 
-RUN echo "source /opt/ros/humble/setup.zsh" >> ~/.zshrc
-RUN echo "source ~/driver/install/setup.zsh" >> ~/.zshrc
-RUN echo "complete -o nospace -o default -F _python_argcomplete "ros2"" >> ~/.zshrc
+RUN ln -s /usr/bin/clangd-15 /usr/bin/clangd && \
+    ln -s /usr/bin/clang-format-15 /usr/bin/clang-format
+

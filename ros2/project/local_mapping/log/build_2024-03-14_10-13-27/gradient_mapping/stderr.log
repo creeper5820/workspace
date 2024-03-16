@@ -1,0 +1,7 @@
+[01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:8:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgradient_mapping[m[K’ has not been declared
+    8 |     auto a = [01;31m[Kgradient_mapping[m[K::msg::CustomPoint;
+      |              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/run.dir/build.make:76: CMakeFiles/run.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/run.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

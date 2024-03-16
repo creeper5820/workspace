@@ -1,0 +1,45 @@
+[0.480s] Invoking command in '/workspaces/codespace/ros2/project/tutorial/src/examples/rclpy/actions/minimal_action_client': AMENT_PREFIX_PATH=/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_action_client PYTEST_ADDOPTS=--tb=short --junit-xml=/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_action_client/pytest.xml --junit-prefix=examples_rclpy_minimal_action_client -o cache_dir=/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_action_client/.pytest_cache PYTHONPATH=/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_action_client:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages /usr/bin/python3 -m pytest
+[0.600s] [1m============================= test session starts ==============================[0m
+[0.600s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.601s] cachedir: /workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_action_client/.pytest_cache
+[0.601s] rootdir: /workspaces/codespace/ros2/project/tutorial/src/examples/rclpy, configfile: pytest.ini
+[0.601s] plugins: colcon-core-0.15.2
+[0.627s] [1mcollecting ... [0m[1m
+[0.627s] collected 0 items / 3 errors                                                   [0m
+[0.650s] 
+[0.651s] ==================================== ERRORS ====================================
+[0.651s] [31m[1m____ ERROR collecting actions/minimal_action_client/test/test_copyright.py _____[0m
+[0.651s] [31mImportError while importing test module '/workspaces/codespace/ros2/project/tutorial/src/examples/rclpy/actions/minimal_action_client/test/test_copyright.py'.
+[0.651s] Hint: make sure your test modules/packages have valid Python names.
+[0.651s] Traceback:
+[0.652s] /usr/lib/python3.10/importlib/__init__.py:126: in import_module
+[0.652s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.652s] test/test_copyright.py:15: in <module>
+[0.652s]     from ament_copyright.main import main
+[0.652s] E   ModuleNotFoundError: No module named 'ament_copyright'[0m
+[0.652s] [31m[1m______ ERROR collecting actions/minimal_action_client/test/test_flake8.py ______[0m
+[0.653s] [31mImportError while importing test module '/workspaces/codespace/ros2/project/tutorial/src/examples/rclpy/actions/minimal_action_client/test/test_flake8.py'.
+[0.653s] Hint: make sure your test modules/packages have valid Python names.
+[0.653s] Traceback:
+[0.653s] /usr/lib/python3.10/importlib/__init__.py:126: in import_module
+[0.653s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.654s] test/test_flake8.py:15: in <module>
+[0.654s]     from ament_flake8.main import main_with_errors
+[0.654s] E   ModuleNotFoundError: No module named 'ament_flake8'[0m
+[0.654s] [31m[1m______ ERROR collecting actions/minimal_action_client/test/test_pep257.py ______[0m
+[0.655s] [31mImportError while importing test module '/workspaces/codespace/ros2/project/tutorial/src/examples/rclpy/actions/minimal_action_client/test/test_pep257.py'.
+[0.655s] Hint: make sure your test modules/packages have valid Python names.
+[0.655s] Traceback:
+[0.655s] /usr/lib/python3.10/importlib/__init__.py:126: in import_module
+[0.655s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.656s] test/test_pep257.py:15: in <module>
+[0.656s]     from ament_pep257.main import main
+[0.656s] E   ModuleNotFoundError: No module named 'ament_pep257'[0m
+[0.656s] - generated xml file: /workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_action_client/pytest.xml -
+[0.656s] =========================== short test summary info ============================
+[0.657s] ERROR test/test_copyright.py
+[0.657s] ERROR test/test_flake8.py
+[0.657s] ERROR test/test_pep257.py
+[0.657s] !!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+[0.657s] [31m============================== [31m[1m3 errors[0m[31m in 0.05s[0m[31m ===============================[0m
+[0.796s] Invoked command in '/workspaces/codespace/ros2/project/tutorial/src/examples/rclpy/actions/minimal_action_client' returned '2': AMENT_PREFIX_PATH=/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_action_client PYTEST_ADDOPTS=--tb=short --junit-xml=/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_action_client/pytest.xml --junit-prefix=examples_rclpy_minimal_action_client -o cache_dir=/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_action_client/.pytest_cache PYTHONPATH=/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_action_client:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages /usr/bin/python3 -m pytest

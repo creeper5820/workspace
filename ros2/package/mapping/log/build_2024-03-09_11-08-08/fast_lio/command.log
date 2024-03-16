@@ -1,6 +1,0 @@
-Invoking command in '/root/mapping/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/mapping/src/FAST_LIO_ROS2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/mapping/install/fast_lio
-Invoked command in '/root/mapping/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/mapping/src/FAST_LIO_ROS2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/mapping/install/fast_lio
-Invoking command in '/root/mapping/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/mapping/build/fast_lio -- -j16 -l16
-Invoked command in '/root/mapping/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/mapping/build/fast_lio -- -j16 -l16
-Invoking command in '/root/mapping/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/mapping/build/fast_lio
-Invoked command in '/root/mapping/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/mapping/build/fast_lio

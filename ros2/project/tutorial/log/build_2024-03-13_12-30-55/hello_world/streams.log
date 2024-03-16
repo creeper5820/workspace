@@ -1,0 +1,51 @@
+[0.051s] Invoking command in '/workspaces/codespace/ros2/project/tutorial/build/hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspaces/codespace/ros2/project/tutorial/install/launch_testing_examples:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_pointcloud_publisher:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_subscriber:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_service:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_publisher:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_client:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_action_server:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_action_client:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_guard_conditions:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_executors /usr/bin/cmake --build /workspaces/codespace/ros2/project/tutorial/build/hello_world -- -j16 -l16
+[0.075s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.190s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.196s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.220s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.222s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.227s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.249s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.293s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.294s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.430s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.548s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.616s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.616s] -- Configured cppcheck include dirs: 
+[0.616s] -- Configured cppcheck exclude dirs and/or files: 
+[0.616s] -- Added test 'lint_cmake' to check CMake code style
+[0.617s] -- Added test 'uncrustify' to check C / C++ code style
+[0.617s] -- Configured uncrustify additional arguments: 
+[0.617s] -- Added test 'xmllint' to check XML markup files
+[0.618s] -- Configuring done
+[0.629s] -- Generating done
+[0.631s] -- Build files have been written to: /workspaces/codespace/ros2/project/tutorial/build/hello_world
+[0.656s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.656s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.677s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.678s] [ 75%] Built target listener
+[3.867s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.006s] [100%] Built target talker
+[4.016s] Invoked command in '/workspaces/codespace/ros2/project/tutorial/build/hello_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspaces/codespace/ros2/project/tutorial/install/launch_testing_examples:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_pointcloud_publisher:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_subscriber:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_service:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_publisher:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_client:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_action_server:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_action_client:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_guard_conditions:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_executors /usr/bin/cmake --build /workspaces/codespace/ros2/project/tutorial/build/hello_world -- -j16 -l16
+[4.057s] Invoking command in '/workspaces/codespace/ros2/project/tutorial/build/hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspaces/codespace/ros2/project/tutorial/install/launch_testing_examples:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_pointcloud_publisher:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_subscriber:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_service:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_publisher:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_client:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_action_server:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_action_client:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_guard_conditions:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_executors /usr/bin/cmake --install /workspaces/codespace/ros2/project/tutorial/build/hello_world
+[4.064s] -- Install configuration: ""
+[4.064s] -- Execute custom install script
+[4.064s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/lib/hello_world/talker
+[4.064s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/lib/hello_world/listener
+[4.065s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/share/ament_index/resource_index/package_run_dependencies/hello_world
+[4.065s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/share/ament_index/resource_index/parent_prefix_path/hello_world
+[4.065s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/share/hello_world/environment/ament_prefix_path.sh
+[4.065s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/share/hello_world/environment/ament_prefix_path.dsv
+[4.065s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/share/hello_world/environment/path.sh
+[4.065s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/share/hello_world/environment/path.dsv
+[4.066s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/share/hello_world/local_setup.bash
+[4.066s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/share/hello_world/local_setup.sh
+[4.066s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/share/hello_world/local_setup.zsh
+[4.066s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/share/hello_world/local_setup.dsv
+[4.066s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/hello_world/share/hello_world/package.dsv
+[4.074s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/share/ament_index/resource_index/packages/hello_world
+[4.075s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/share/hello_world/cmake/hello_worldConfig.cmake
+[4.075s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/share/hello_world/cmake/hello_worldConfig-version.cmake
+[4.075s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/tutorial/install/hello_world/share/hello_world/package.xml
+[4.077s] Invoked command in '/workspaces/codespace/ros2/project/tutorial/build/hello_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspaces/codespace/ros2/project/tutorial/install/launch_testing_examples:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_pointcloud_publisher:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_subscriber:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_service:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_publisher:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_client:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_action_server:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_action_client:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_guard_conditions:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_executors /usr/bin/cmake --install /workspaces/codespace/ros2/project/tutorial/build/hello_world

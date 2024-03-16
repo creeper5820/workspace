@@ -1,0 +1,4 @@
+Invoking command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_subscriber': /usr/bin/cmake --build /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+Invoked command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_subscriber' returned '0': /usr/bin/cmake --build /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+Invoking command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_subscriber': /usr/bin/cmake --install /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_subscriber
+Invoked command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_subscriber' returned '0': /usr/bin/cmake --install /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_subscriber

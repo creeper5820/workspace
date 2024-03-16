@@ -1,0 +1,25 @@
+[0.036s] Invoking command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_client': /usr/bin/cmake --build /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_client -- -j16 -l16
+[0.174s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[6.130s] [100%] [32m[1mLinking CXX executable client_main[0m
+[6.437s] [100%] Built target client_main
+[6.457s] Invoked command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_client' returned '0': /usr/bin/cmake --build /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_client -- -j16 -l16
+[6.508s] Invoking command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_client': /usr/bin/cmake --install /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_client
+[6.516s] -- Install configuration: ""
+[6.517s] -- Execute custom install script
+[6.518s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[6.530s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[6.543s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[6.554s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[6.567s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[6.582s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[6.596s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[6.609s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[6.624s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[6.639s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[6.653s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[6.667s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[6.679s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[6.692s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[6.704s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[6.715s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[6.729s] Invoked command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_client' returned '0': /usr/bin/cmake --install /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_client

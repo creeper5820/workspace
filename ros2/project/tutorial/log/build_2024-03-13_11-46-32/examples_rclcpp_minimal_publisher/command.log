@@ -1,0 +1,4 @@
+Invoking command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_publisher': /usr/bin/cmake --build /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+Invoked command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_publisher' returned '0': /usr/bin/cmake --build /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+Invoking command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_publisher': /usr/bin/cmake --install /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_publisher
+Invoked command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_publisher' returned '0': /usr/bin/cmake --install /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_minimal_publisher

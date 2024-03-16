@@ -1,0 +1,590 @@
+[0.060s] Invoking command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping -- -j16 -l16
+[0.092s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.189s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.210s] -- Checking for module 'eigen3'
+[0.227s] --   Found eigen3, version 3.4.0
+[0.260s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.260s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.291s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.312s] -- Checking for module 'flann'
+[0.327s] --   Found flann, version 1.9.1
+[0.375s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.376s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.409s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.416s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.596s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.596s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.599s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.606s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.619s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.639s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[0.725s] -- Found X11: /usr/include   
+[0.725s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.799s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.799s] -- Looking for gethostbyname
+[0.865s] -- Looking for gethostbyname - found
+[0.866s] -- Looking for connect
+[0.933s] -- Looking for connect - found
+[0.933s] -- Looking for remove
+[0.999s] -- Looking for remove - found
+[1.000s] -- Looking for shmat
+[1.068s] -- Looking for shmat - found
+[1.068s] -- Looking for IceConnectionNumber in ICE
+[1.136s] -- Looking for IceConnectionNumber in ICE - found
+[1.213s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.215s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.217s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.219s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.264s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.268s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.272s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.278s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.361s] -- Checking for module 'libusb-1.0'
+[1.375s] --   Found libusb-1.0, version 1.0.25
+[1.412s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.413s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.413s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.471s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.471s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.471s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.594s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.600s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.605s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.724s] -- Found Qhull version 8.0.2
+[1.844s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.964s] -- looking for PCL_COMMON
+[1.964s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.965s] -- looking for PCL_KDTREE
+[1.965s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.965s] -- looking for PCL_OCTREE
+[1.966s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.966s] -- looking for PCL_SEARCH
+[1.966s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.966s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.967s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.967s] -- looking for PCL_FILTERS
+[1.968s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.968s] -- looking for PCL_2D
+[1.968s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[1.968s] -- looking for PCL_GEOMETRY
+[1.968s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[1.968s] -- looking for PCL_IO
+[1.969s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.969s] -- looking for PCL_FEATURES
+[1.969s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.969s] -- looking for PCL_ML
+[1.970s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.970s] -- looking for PCL_SEGMENTATION
+[1.971s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.971s] -- looking for PCL_VISUALIZATION
+[1.971s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.971s] -- looking for PCL_SURFACE
+[1.972s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.972s] -- looking for PCL_REGISTRATION
+[1.973s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.973s] -- looking for PCL_KEYPOINTS
+[1.973s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.974s] -- looking for PCL_TRACKING
+[1.974s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.974s] -- looking for PCL_RECOGNITION
+[1.975s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.975s] -- looking for PCL_STEREO
+[1.976s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.976s] -- looking for PCL_APPS
+[1.976s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.977s] -- looking for PCL_IN_HAND_SCANNER
+[1.977s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[1.977s] -- looking for PCL_MODELER
+[1.977s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[1.977s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.978s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[1.978s] -- looking for PCL_OUTOFCORE
+[1.979s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.979s] -- looking for PCL_PEOPLE
+[1.979s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.980s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[2.050s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.052s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.057s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.065s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.078s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.125s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.126s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.255s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.780s] -- Configuring done
+[2.794s] -- Generating done
+[2.796s] -- Build files have been written to: /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping
+[2.830s] [35m[1mConsolidate compiler generated dependencies of target gradient_mapping[0m
+[2.866s] [ 50%] [32mBuilding CXX object CMakeFiles/gradient_mapping.dir/src/main.cpp.o[0m
+[6.531s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.531s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.531s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.531s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.532s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.532s]   241 |     struct [01;35m[K{[m[K \
+[6.532s]       |            [01;35m[K^[m[K
+[6.532s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.532s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.532s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.532s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:337:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.532s]   337 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.532s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.599s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.599s]   289 |       [01;35m[K{[m[K \
+[6.599s]       |       [01;35m[K^[m[K
+[6.599s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[6.600s]   313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+[6.600s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.600s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:368:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+[6.600s]   368 |     [01;36m[KPCL_ADD_RGB[m[K;
+[6.600s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[6.686s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.686s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.686s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.686s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.687s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:318:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.687s]   318 |     [01;35m[K{[m[K \
+[6.687s]       |     [01;35m[K^[m[K
+[6.687s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY[m[K’
+[6.687s]   411 |     [01;36m[KPCL_ADD_INTENSITY[m[K;
+[6.687s]       |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.687s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:22:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.687s]   411 |     PCL_ADD_INTENSITY[01;35m[K;[m[K
+[6.687s]       |                      [01;35m[K^[m[K
+[6.687s]       |                      [31m[K-[m[K
+[6.687s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:324:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.687s]   324 |     [01;35m[K{[m[K \
+[6.688s]       |     [01;35m[K^[m[K
+[6.688s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY_8U[m[K’
+[6.688s]   437 |     [01;36m[KPCL_ADD_INTENSITY_8U[m[K;
+[6.688s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.688s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:25:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.688s]   437 |     PCL_ADD_INTENSITY_8U[01;35m[K;[m[K
+[6.688s]       |                         [01;35m[K^[m[K
+[6.688s]       |                         [31m[K-[m[K
+[6.688s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:330:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.688s]   330 |     [01;35m[K{[m[K \
+[6.688s]       |     [01;35m[K^[m[K
+[6.688s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY_32U[m[K’
+[6.688s]   469 |     [01;36m[KPCL_ADD_INTENSITY_32U[m[K;
+[6.688s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.688s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.688s]   469 |     PCL_ADD_INTENSITY_32U[01;35m[K;[m[K
+[6.689s]       |                          [01;35m[K^[m[K
+[6.689s]       |                          [31m[K-[m[K
+[6.689s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.689s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.689s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.689s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.689s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.689s]   241 |     struct [01;35m[K{[m[K \
+[6.689s]       |            [01;35m[K^[m[K
+[6.689s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.689s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.689s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.689s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:497:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.689s]   497 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.689s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.689s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.689s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.690s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.690s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.690s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:501:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.690s]   501 |       [01;35m[K{[m[K
+[6.690s]       |       [01;35m[K^[m[K
+[6.690s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.690s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.690s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.690s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.690s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.690s]   241 |     struct [01;35m[K{[m[K \
+[6.690s]       |            [01;35m[K^[m[K
+[6.690s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.690s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.690s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.690s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:533:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.691s]   533 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.691s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.691s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.691s]   241 |     struct [01;35m[K{[m[K \
+[6.691s]       |            [01;35m[K^[m[K
+[6.691s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.691s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.691s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.691s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:573:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.691s]   573 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.691s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.691s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.691s]   289 |       [01;35m[K{[m[K \
+[6.691s]       |       [01;35m[K^[m[K
+[6.691s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[6.691s]   313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+[6.691s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.691s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:574:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+[6.691s]   574 |     [01;36m[KPCL_ADD_RGB[m[K;
+[6.691s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[6.692s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.692s]   241 |     struct [01;35m[K{[m[K \
+[6.692s]       |            [01;35m[K^[m[K
+[6.692s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.692s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.692s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.692s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:629:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.692s]   629 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.692s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.692s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.692s]   289 |       [01;35m[K{[m[K \
+[6.692s]       |       [01;35m[K^[m[K
+[6.692s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[6.692s]   313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+[6.692s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.693s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:630:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+[6.693s]   630 |     [01;36m[KPCL_ADD_RGB[m[K;
+[6.693s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[6.693s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.693s]   241 |     struct [01;35m[K{[m[K \
+[6.693s]       |            [01;35m[K^[m[K
+[6.693s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.693s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.693s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.693s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:636:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.693s]   636 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.693s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.693s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.693s]   289 |       [01;35m[K{[m[K \
+[6.693s]       |       [01;35m[K^[m[K
+[6.693s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[6.693s]   313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+[6.693s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.694s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:637:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+[6.694s]   637 |     [01;36m[KPCL_ADD_RGB[m[K;
+[6.694s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[6.694s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.694s]   241 |     struct [01;35m[K{[m[K \
+[6.694s]       |            [01;35m[K^[m[K
+[6.694s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.694s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.694s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.694s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:741:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.694s]   741 |     [01;36m[KPCL_ADD_POINT4D[m[K; // this adds the members x,y,z
+[6.694s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.694s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.694s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.694s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.694s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.695s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:745:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.695s]   745 |       [01;35m[K{[m[K
+[6.695s]       |       [01;35m[K^[m[K
+[6.695s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.695s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.695s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.695s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.695s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.695s]   241 |     struct [01;35m[K{[m[K \
+[6.695s]       |            [01;35m[K^[m[K
+[6.695s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.695s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.695s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.695s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:782:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.695s]   782 |     [01;36m[KPCL_ADD_POINT4D[m[K;    // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.695s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.696s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.696s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.696s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.696s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.696s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:786:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.696s]   786 |       [01;35m[K{[m[K
+[6.696s]       |       [01;35m[K^[m[K
+[6.696s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.696s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.696s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.696s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.696s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.696s]   241 |     struct [01;35m[K{[m[K \
+[6.696s]       |            [01;35m[K^[m[K
+[6.696s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.697s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.697s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.697s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:867:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.697s]   867 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.697s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.697s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.697s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.697s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.697s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.697s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:871:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.697s]   871 |       [01;35m[K{[m[K
+[6.697s]       |       [01;35m[K^[m[K
+[6.697s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.697s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.697s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.697s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.697s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.698s]   266 |     struct [01;35m[K{[m[K \
+[6.698s]       |            [01;35m[K^[m[K
+[6.698s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[6.698s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[6.698s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.698s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:883:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[6.698s]   883 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[6.698s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.698s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.698s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.698s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.698s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.698s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:887:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.698s]   887 |       [01;35m[K{[m[K
+[6.698s]       |       [01;35m[K^[m[K
+[6.698s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.699s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.699s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.699s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.699s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.699s]   266 |     struct [01;35m[K{[m[K \
+[6.699s]       |            [01;35m[K^[m[K
+[6.699s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[6.699s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[6.699s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.699s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:924:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[6.699s]   924 |     [01;36m[KPCL_ADD_NORMAL4D[m[K;
+[6.699s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.699s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.699s]   241 |     struct [01;35m[K{[m[K \
+[6.699s]       |            [01;35m[K^[m[K
+[6.699s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.700s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.700s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.700s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:955:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.700s]   955 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.700s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.700s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.700s]   266 |     struct [01;35m[K{[m[K \
+[6.700s]       |            [01;35m[K^[m[K
+[6.700s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[6.700s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[6.700s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.700s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:956:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[6.700s]   956 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[6.700s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.700s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.700s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.701s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.701s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.701s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:960:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.701s]   960 |       [01;35m[K{[m[K
+[6.701s]       |       [01;35m[K^[m[K
+[6.701s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.701s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.701s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.701s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.701s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.701s]   241 |     struct [01;35m[K{[m[K \
+[6.701s]       |            [01;35m[K^[m[K
+[6.701s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.701s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.701s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.701s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1001:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.701s]  1001 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.701s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.702s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.702s]   266 |     struct [01;35m[K{[m[K \
+[6.702s]       |            [01;35m[K^[m[K
+[6.702s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[6.702s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[6.702s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.702s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1002:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[6.702s]  1002 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[6.702s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.702s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.702s]   289 |       [01;35m[K{[m[K \
+[6.702s]       |       [01;35m[K^[m[K
+[6.702s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[6.702s]  1007 |         [01;36m[KPCL_ADD_UNION_RGB[m[K;
+[6.702s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.702s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.702s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.702s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.703s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.703s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.703s]  1007 |         PCL_ADD_UNION_RGB[01;35m[K;[m[K
+[6.703s]       |                          [01;35m[K^[m[K
+[6.703s]       |                          [31m[K-[m[K
+[6.703s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1006:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.703s]  1006 |       [01;35m[K{[m[K
+[6.703s]       |       [01;35m[K^[m[K
+[6.703s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.703s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.703s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.703s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.703s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.703s]   241 |     struct [01;35m[K{[m[K \
+[6.703s]       |            [01;35m[K^[m[K
+[6.703s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.703s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.703s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.703s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1085:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.704s]  1085 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.704s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.704s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.704s]   266 |     struct [01;35m[K{[m[K \
+[6.704s]       |            [01;35m[K^[m[K
+[6.704s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[6.704s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[6.704s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.704s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1086:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[6.704s]  1086 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[6.704s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.704s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.704s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.704s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.704s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.704s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1090:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.704s]  1090 |       [01;35m[K{[m[K
+[6.704s]       |       [01;35m[K^[m[K
+[6.704s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.705s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.705s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.705s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.705s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.705s]   241 |     struct [01;35m[K{[m[K \
+[6.705s]       |            [01;35m[K^[m[K
+[6.705s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.705s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.705s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.705s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1135:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.705s]  1135 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.705s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.705s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.705s]   266 |     struct [01;35m[K{[m[K \
+[6.705s]       |            [01;35m[K^[m[K
+[6.705s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[6.705s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[6.705s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.705s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1136:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[6.706s]  1136 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[6.706s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.706s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.706s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.706s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.706s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.706s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1140:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.706s]  1140 |       [01;35m[K{[m[K
+[6.706s]       |       [01;35m[K^[m[K
+[6.706s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.706s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.706s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.706s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.706s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.706s]   241 |     struct [01;35m[K{[m[K \
+[6.706s]       |            [01;35m[K^[m[K
+[6.706s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.706s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.707s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.707s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1187:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.707s]  1187 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.707s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.707s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.707s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.707s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.707s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.707s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1191:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.707s]  1191 |       [01;35m[K{[m[K
+[6.707s]       |       [01;35m[K^[m[K
+[6.707s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.707s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.707s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.707s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.707s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.707s]   241 |     struct [01;35m[K{[m[K \
+[6.707s]       |            [01;35m[K^[m[K
+[6.707s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.708s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.708s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.708s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1226:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.708s]  1226 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.708s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.708s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.708s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.708s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.708s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.708s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1230:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.708s]  1230 |       [01;35m[K{[m[K
+[6.708s]       |       [01;35m[K^[m[K
+[6.708s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1326:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.708s]  1326 |       [01;35m[K{[m[K
+[6.708s]       |       [01;35m[K^[m[K
+[6.708s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1519:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.708s]  1519 |       [01;35m[K{[m[K
+[6.708s]       |       [01;35m[K^[m[K
+[6.731s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1738:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.731s]  1738 |       [01;35m[K{[m[K
+[6.732s]       |       [01;35m[K^[m[K
+[6.732s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.732s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.732s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.732s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.732s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.732s]   241 |     struct [01;35m[K{[m[K \
+[6.732s]       |            [01;35m[K^[m[K
+[6.732s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.732s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.732s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.732s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1765:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.732s]  1765 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.733s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.733s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.733s]   241 |     struct [01;35m[K{[m[K \
+[6.733s]       |            [01;35m[K^[m[K
+[6.733s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.733s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.733s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.733s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1818:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.733s]  1818 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[6.733s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.733s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.733s]   266 |     struct [01;35m[K{[m[K \
+[6.733s]       |            [01;35m[K^[m[K
+[6.733s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[6.733s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[6.733s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.733s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1819:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[6.733s]  1819 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[6.734s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.734s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.734s]   289 |       [01;35m[K{[m[K \
+[6.734s]       |       [01;35m[K^[m[K
+[6.734s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[6.734s]  1824 |         [01;36m[KPCL_ADD_UNION_RGB[m[K;
+[6.734s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.734s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.734s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.734s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.734s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.734s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.734s]  1824 |         PCL_ADD_UNION_RGB[01;35m[K;[m[K
+[6.734s]       |                          [01;35m[K^[m[K
+[6.734s]       |                          [31m[K-[m[K
+[6.734s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1823:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.734s]  1823 |       [01;35m[K{[m[K
+[6.735s]       |       [01;35m[K^[m[K
+[6.735s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[6.735s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[6.735s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/../include/gradient_mapping/transform.hpp:6[m[K,
+[6.735s]                  from [01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:13[m[K:
+[6.735s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.735s]   241 |     struct [01;35m[K{[m[K \
+[6.735s]       |            [01;35m[K^[m[K
+[6.735s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[6.735s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[6.735s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.735s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1867:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[6.735s]  1867 |     [01;36m[KPCL_ADD_POINT4D[m[K;
+[6.735s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[13.771s] [100%] [32m[1mLinking CXX executable gradient_mapping[0m
+[13.883s] /usr/bin/ld: CMakeFiles/gradient_mapping.dir/src/main.cpp.o: in function `void pcl::transformPointCloud<pcl::PointXYZ, float>(pcl::PointCloud<pcl::PointXYZ> const&, pcl::PointCloud<pcl::PointXYZ>&, Eigen::Matrix<float, 4, 4, 0, 4, 4> const&, bool)':
+[13.883s] main.cpp:(.text._ZN3pcl19transformPointCloudINS_8PointXYZEfEEvRKNS_10PointCloudIT_EERS4_RKN5Eigen6MatrixIT0_Li4ELi4ELi0ELi4ELi4EEEb[_ZN3pcl19transformPointCloudINS_8PointXYZEfEEvRKNS_10PointCloudIT_EERS4_RKN5Eigen6MatrixIT0_Li4ELi4ELi0ELi4ELi4EEEb]+0x39b): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+[13.894s] collect2: error: ld returned 1 exit status
+[13.896s] gmake[2]: *** [CMakeFiles/gradient_mapping.dir/build.make:167: gradient_mapping] Error 1
+[13.896s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gradient_mapping.dir/all] Error 2
+[13.897s] gmake: *** [Makefile:146: all] Error 2
+[13.899s] Invoked command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping -- -j16 -l16

@@ -1,0 +1,106 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping
+[35m[1mConsolidate compiler generated dependencies of target gradient_mapping__rosidl_generator_c[0m
+[35m[1mConsolidate compiler generated dependencies of target run[0m
+[  2%] Built target gradient_mapping__cpp
+[  7%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_generator_c.dir/rosidl_generator_c/gradient_mapping/msg/detail/custom_point__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_generator_c.dir/rosidl_generator_c/gradient_mapping/msg/detail/custom_msg__functions.c.o[0m
+[  7%] Built target ament_cmake_python_symlink_gradient_mapping
+[35m[1mConsolidate compiler generated dependencies of target gradient_mapping__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target gradient_mapping__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target gradient_mapping__rosidl_typesupport_fastrtps_cpp[0m
+[  9%] [32mBuilding CXX object CMakeFiles/run.dir/src/main.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gradient_mapping/msg/custom_msg__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gradient_mapping/msg/custom_point__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gradient_mapping/msg/detail/custom_point__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gradient_mapping/msg/detail/custom_msg__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gradient_mapping/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gradient_mapping/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[ 26%] [32m[1mLinking C shared library libgradient_mapping__rosidl_generator_c.so[0m
+[ 29%] Built target gradient_mapping__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target gradient_mapping__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target gradient_mapping__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target gradient_mapping__rosidl_typesupport_c[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_c.dir/rosidl_typesupport_c/gradient_mapping/msg/custom_point__type_support.cpp.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gradient_mapping/msg/detail/custom_point__type_support.c.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_c.dir/rosidl_typesupport_c/gradient_mapping/msg/custom_msg__type_support.cpp.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gradient_mapping/msg/detail/custom_msg__type_support.c.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gradient_mapping/msg/detail/custom_point__type_support_c.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gradient_mapping/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[ 46%] [32m[1mLinking CXX shared library libgradient_mapping__rosidl_typesupport_c.so[0m
+[ 48%] [32m[1mLinking C shared library libgradient_mapping__rosidl_typesupport_introspection_c.so[0m
+[ 51%] Built target gradient_mapping__rosidl_typesupport_introspection_c
+[ 53%] Built target gradient_mapping__rosidl_typesupport_c
+running egg_info
+writing gradient_mapping.egg-info/PKG-INFO
+writing dependency_links to gradient_mapping.egg-info/dependency_links.txt
+writing top-level names to gradient_mapping.egg-info/top_level.txt
+reading manifest file 'gradient_mapping.egg-info/SOURCES.txt'
+writing manifest file 'gradient_mapping.egg-info/SOURCES.txt'
+[ 53%] Built target ament_cmake_python_build_gradient_mapping_egg
+[ 56%] [32m[1mLinking CXX shared library libgradient_mapping__rosidl_typesupport_cpp.so[0m
+[01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:4:9:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+    4 | #include
+      |         [01;31m[K^[m[K
+[ 58%] Built target gradient_mapping__rosidl_typesupport_cpp
+[ 60%] [32m[1mLinking CXX shared library libgradient_mapping__rosidl_typesupport_introspection_cpp.so[0m
+[ 63%] [32m[1mLinking CXX shared library libgradient_mapping__rosidl_typesupport_fastrtps_c.so[0m
+[ 65%] [32m[1mLinking CXX shared library libgradient_mapping__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 68%] Built target gradient_mapping__rosidl_typesupport_introspection_cpp
+[ 70%] Built target gradient_mapping__rosidl_typesupport_fastrtps_c
+[ 73%] Built target gradient_mapping__rosidl_typesupport_fastrtps_cpp
+[ 73%] Built target gradient_mapping
+[ 75%] Built target gradient_mapping__py
+[35m[1mConsolidate compiler generated dependencies of target gradient_mapping__rosidl_generator_py[0m
+[ 80%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_generator_py.dir/rosidl_generator_py/gradient_mapping/msg/_custom_msg_s.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_generator_py.dir/rosidl_generator_py/gradient_mapping/msg/_custom_point_s.c.o[0m
+[ 82%] [32m[1mLinking C shared library rosidl_generator_py/gradient_mapping/libgradient_mapping__rosidl_generator_py.so[0m
+[ 82%] Built target gradient_mapping__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target gradient_mapping__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target gradient_mapping__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target gradient_mapping__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 90%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gradient_mapping/_gradient_mapping_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gradient_mapping/_gradient_mapping_s.ep.rosidl_typesupport_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gradient_mapping/_gradient_mapping_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 92%] [32m[1mLinking C shared library rosidl_generator_py/gradient_mapping/gradient_mapping_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/gradient_mapping/gradient_mapping_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/gradient_mapping/gradient_mapping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] Built target gradient_mapping__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target gradient_mapping__rosidl_typesupport_c__pyext
+[ 97%] Built target gradient_mapping__rosidl_typesupport_introspection_c__pyext
+[01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/workspaces/codespace/ros2/project/local_mapping/src/gradient_mapping/src/main.cpp:10:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgradient_mapping[m[K’ has not been declared
+   10 |     auto a = [01;31m[Kgradient_mapping[m[K::msg::CustomPoint;
+      |              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/run.dir/build.make:76: CMakeFiles/run.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/run.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

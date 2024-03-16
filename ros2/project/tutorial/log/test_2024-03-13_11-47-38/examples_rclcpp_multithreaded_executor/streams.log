@@ -1,0 +1,101 @@
+[0.790s] Invoking command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor': AMENT_PREFIX_PATH=/workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_multithreaded_executor CMAKE_PREFIX_PATH=/workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_multithreaded_executor /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[1.004s] Errors while running CTest
+[1.004s] Output from these tests are in: /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/Testing/Temporary/LastTest.log
+[1.004s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[1.009s] UpdateCTestConfiguration  from :/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/CTestConfiguration.ini
+[1.009s] Parse Config file:/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/CTestConfiguration.ini
+[1.009s]    Site: creeper5820-A7S
+[1.009s]    Build name: (empty)
+[1.009s]  Add coverage exclude regular expressions.
+[1.010s] Create new tag: 20240313-1147 - Experimental
+[1.010s] UpdateCTestConfiguration  from :/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/CTestConfiguration.ini
+[1.010s] Parse Config file:/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/CTestConfiguration.ini
+[1.010s] Test project /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor
+[1.010s] Constructing a list of tests
+[1.010s] Done constructing a list of tests
+[1.010s] Updating test list for fixtures
+[1.010s] Added 0 tests to meet fixture requirements
+[1.010s] Checking test dependency graph...
+[1.010s] Checking test dependency graph end
+[1.010s] test 1
+[1.010s]     Start 1: copyright
+[1.010s] 
+[1.010s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/copyright.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/copyright.xunit.xml"
+[1.010s] 1: Test timeout computed to be: 200
+[1.010s] 1: Traceback (most recent call last):
+[1.010s] 1:   File "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py", line 19, in <module>
+[1.010s] 1:     import ament_cmake_test
+[1.010s] 1: ModuleNotFoundError: No module named 'ament_cmake_test'
+[1.010s] 1/6 Test #1: copyright ........................***Failed    0.03 sec
+[1.010s] test 2
+[1.011s]     Start 2: cppcheck
+[1.011s] 
+[1.011s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cppcheck.xunit.xml"
+[1.011s] 2: Test timeout computed to be: 300
+[1.011s] 2: Traceback (most recent call last):
+[1.011s] 2:   File "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py", line 19, in <module>
+[1.011s] 2:     import ament_cmake_test
+[1.011s] 2: ModuleNotFoundError: No module named 'ament_cmake_test'
+[1.011s] 2/6 Test #2: cppcheck .........................***Failed    0.02 sec
+[1.011s] test 3
+[1.011s]     Start 3: cpplint
+[1.011s] 
+[1.011s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cpplint.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cpplint.xunit.xml"
+[1.011s] 3: Test timeout computed to be: 120
+[1.011s] 3: Traceback (most recent call last):
+[1.011s] 3:   File "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py", line 19, in <module>
+[1.011s] 3:     import ament_cmake_test
+[1.011s] 3: ModuleNotFoundError: No module named 'ament_cmake_test'
+[1.012s] 3/6 Test #3: cpplint ..........................***Failed    0.03 sec
+[1.012s] test 4
+[1.012s]     Start 4: lint_cmake
+[1.012s] 
+[1.012s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/lint_cmake.xunit.xml"
+[1.012s] 4: Test timeout computed to be: 60
+[1.012s] 4: Traceback (most recent call last):
+[1.012s] 4:   File "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py", line 19, in <module>
+[1.012s] 4:     import ament_cmake_test
+[1.012s] 4: ModuleNotFoundError: No module named 'ament_cmake_test'
+[1.012s] 4/6 Test #4: lint_cmake .......................***Failed    0.02 sec
+[1.012s] test 5
+[1.012s]     Start 5: uncrustify
+[1.012s] 
+[1.012s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/uncrustify.xunit.xml"
+[1.012s] 5: Test timeout computed to be: 60
+[1.012s] 5: Traceback (most recent call last):
+[1.012s] 5:   File "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py", line 19, in <module>
+[1.012s] 5:     import ament_cmake_test
+[1.012s] 5: ModuleNotFoundError: No module named 'ament_cmake_test'
+[1.013s] 5/6 Test #5: uncrustify .......................***Failed    0.02 sec
+[1.013s] test 6
+[1.013s]     Start 6: xmllint
+[1.013s] 
+[1.013s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/xmllint.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/xmllint.xunit.xml"
+[1.013s] 6: Test timeout computed to be: 60
+[1.013s] 6: Traceback (most recent call last):
+[1.013s] 6:   File "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py", line 19, in <module>
+[1.013s] 6:     import ament_cmake_test
+[1.013s] 6: ModuleNotFoundError: No module named 'ament_cmake_test'
+[1.013s] 6/6 Test #6: xmllint ..........................***Failed    0.03 sec
+[1.013s] 
+[1.013s] 0% tests passed[0;0m, [0;31m6 tests failed[0;0m out of 6
+[1.013s] 
+[1.013s] Label Time Summary:
+[1.013s] copyright     =   0.03 sec*proc (1 test)
+[1.013s] cppcheck      =   0.02 sec*proc (1 test)
+[1.013s] cpplint       =   0.03 sec*proc (1 test)
+[1.013s] lint_cmake    =   0.02 sec*proc (1 test)
+[1.014s] linter        =   0.15 sec*proc (6 tests)
+[1.014s] uncrustify    =   0.02 sec*proc (1 test)
+[1.014s] xmllint       =   0.03 sec*proc (1 test)
+[1.014s] 
+[1.014s] Total Test time (real) =   0.16 sec
+[1.014s] 
+[1.014s] The following tests FAILED:
+[1.014s] 	[0;31m  1 - copyright (Failed)[0;0m
+[1.014s] 	[0;31m  2 - cppcheck (Failed)[0;0m
+[1.014s] 	[0;31m  3 - cpplint (Failed)[0;0m
+[1.014s] 	[0;31m  4 - lint_cmake (Failed)[0;0m
+[1.014s] 	[0;31m  5 - uncrustify (Failed)[0;0m
+[1.014s] 	[0;31m  6 - xmllint (Failed)[0;0m
+[1.019s] Invoked command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_multithreaded_executor' returned '8': AMENT_PREFIX_PATH=/workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_multithreaded_executor CMAKE_PREFIX_PATH=/workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_multithreaded_executor /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

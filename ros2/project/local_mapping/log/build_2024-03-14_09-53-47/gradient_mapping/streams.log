@@ -1,0 +1,218 @@
+[0.040s] Invoking command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping -- -j16 -l16
+[0.062s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.156s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.162s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.187s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.190s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.194s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.215s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.261s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.263s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.381s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.505s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.540s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.757s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.071s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.214s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.231s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.231s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.232s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.259s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.269s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.270s] -- Configured cppcheck include dirs: 
+[1.270s] -- Configured cppcheck exclude dirs and/or files: 
+[1.270s] -- Added test 'lint_cmake' to check CMake code style
+[1.271s] -- Added test 'uncrustify' to check C / C++ code style
+[1.271s] -- Configured uncrustify additional arguments: 
+[1.272s] -- Added test 'xmllint' to check XML markup files
+[1.274s] -- Configuring done
+[1.314s] -- Generating done
+[1.317s] -- Build files have been written to: /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping
+[1.342s] [35m[1mConsolidate compiler generated dependencies of target gradient_mapping__rosidl_generator_c[0m
+[1.342s] [35m[1mConsolidate compiler generated dependencies of target run[0m
+[1.352s] [  2%] Built target gradient_mapping__cpp
+[1.352s] [  7%] Built target run
+[1.353s] [  9%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_generator_c.dir/rosidl_generator_c/gradient_mapping/msg/detail/custom_point__functions.c.o[0m
+[1.353s] [ 12%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_generator_c.dir/rosidl_generator_c/gradient_mapping/msg/detail/custom_msg__functions.c.o[0m
+[1.359s] [ 12%] Built target ament_cmake_python_symlink_gradient_mapping
+[1.361s] [35m[1mConsolidate compiler generated dependencies of target gradient_mapping__rosidl_typesupport_cpp[0m
+[1.361s] [35m[1mConsolidate compiler generated dependencies of target gradient_mapping__rosidl_typesupport_introspection_cpp[0m
+[1.361s] [35m[1mConsolidate compiler generated dependencies of target gradient_mapping__rosidl_typesupport_fastrtps_cpp[0m
+[1.375s] [ 19%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gradient_mapping/msg/custom_point__type_support.cpp.o[0m
+[1.375s] [ 19%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gradient_mapping/msg/detail/custom_point__type_support.cpp.o[0m
+[1.375s] [ 19%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gradient_mapping/msg/custom_msg__type_support.cpp.o[0m
+[1.375s] [ 21%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gradient_mapping/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[1.377s] [ 24%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gradient_mapping/msg/detail/custom_msg__type_support.cpp.o[0m
+[1.378s] [ 26%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gradient_mapping/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[1.401s] [ 29%] [32m[1mLinking C shared library libgradient_mapping__rosidl_generator_c.so[0m
+[1.437s] [ 31%] Built target gradient_mapping__rosidl_generator_c
+[1.448s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.449s] [ 36%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.451s] [ 39%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.546s] running egg_info
+[1.547s] writing gradient_mapping.egg-info/PKG-INFO
+[1.547s] writing dependency_links to gradient_mapping.egg-info/dependency_links.txt
+[1.547s] writing top-level names to gradient_mapping.egg-info/top_level.txt
+[1.549s] reading manifest file 'gradient_mapping.egg-info/SOURCES.txt'
+[1.550s] writing manifest file 'gradient_mapping.egg-info/SOURCES.txt'
+[1.577s] [ 39%] Built target ament_cmake_python_build_gradient_mapping_egg
+[1.694s] [ 41%] [32m[1mLinking CXX shared library libgradient_mapping__rosidl_typesupport_cpp.so[0m
+[1.734s] [ 43%] Built target gradient_mapping__rosidl_typesupport_cpp
+[1.760s] [ 46%] [32m[1mLinking CXX shared library libgradient_mapping__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.779s] [ 48%] [32m[1mLinking CXX shared library libgradient_mapping__rosidl_typesupport_introspection_cpp.so[0m
+[1.817s] [ 51%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gradient_mapping/msg/detail/custom_point__type_support_c.cpp.o[0m
+[1.817s] [ 53%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gradient_mapping/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[1.835s] [ 56%] Built target gradient_mapping__rosidl_typesupport_fastrtps_cpp
+[1.851s] [ 58%] Built target gradient_mapping__rosidl_typesupport_introspection_cpp
+[1.870s] [ 63%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_c.dir/rosidl_typesupport_c/gradient_mapping/msg/custom_msg__type_support.cpp.o[0m
+[1.870s] [ 63%] [32mBuilding CXX object CMakeFiles/gradient_mapping__rosidl_typesupport_c.dir/rosidl_typesupport_c/gradient_mapping/msg/custom_point__type_support.cpp.o[0m
+[1.890s] [ 68%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gradient_mapping/msg/detail/custom_msg__type_support.c.o[0m
+[1.890s] [ 68%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gradient_mapping/msg/detail/custom_point__type_support.c.o[0m
+[1.901s] [ 70%] [32m[1mLinking CXX shared library libgradient_mapping__rosidl_typesupport_c.so[0m
+[1.927s] [ 73%] [32m[1mLinking C shared library libgradient_mapping__rosidl_typesupport_introspection_c.so[0m
+[1.941s] [ 73%] Built target gradient_mapping__rosidl_typesupport_c
+[1.959s] [ 73%] Built target gradient_mapping__rosidl_typesupport_introspection_c
+[2.092s] [ 75%] [32m[1mLinking CXX shared library libgradient_mapping__rosidl_typesupport_fastrtps_c.so[0m
+[2.154s] [ 75%] Built target gradient_mapping__rosidl_typesupport_fastrtps_c
+[2.172s] [ 75%] Built target gradient_mapping
+[2.193s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.663s] [ 78%] Built target gradient_mapping__py
+[2.683s] [ 82%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_generator_py.dir/rosidl_generator_py/gradient_mapping/msg/_custom_point_s.c.o[0m
+[2.683s] [ 82%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_generator_py.dir/rosidl_generator_py/gradient_mapping/msg/_custom_msg_s.c.o[0m
+[2.773s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/gradient_mapping/libgradient_mapping__rosidl_generator_py.so[0m
+[2.811s] [ 85%] Built target gradient_mapping__rosidl_generator_py
+[2.831s] [ 92%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gradient_mapping/_gradient_mapping_s.ep.rosidl_typesupport_c.c.o[0m
+[2.831s] [ 92%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gradient_mapping/_gradient_mapping_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.831s] [ 92%] [32mBuilding C object CMakeFiles/gradient_mapping__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gradient_mapping/_gradient_mapping_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.922s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gradient_mapping/gradient_mapping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.922s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gradient_mapping/gradient_mapping_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.922s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gradient_mapping/gradient_mapping_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.960s] [100%] Built target gradient_mapping__rosidl_typesupport_c__pyext
+[2.960s] [100%] Built target gradient_mapping__rosidl_typesupport_introspection_c__pyext
+[2.960s] [100%] Built target gradient_mapping__rosidl_typesupport_fastrtps_c__pyext
+[2.971s] Invoked command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping -- -j16 -l16
+[3.052s] Invoking command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping
+[3.059s] -- Install configuration: ""
+[3.060s] -- Execute custom install script
+[3.060s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/ament_index/resource_index/rosidl_interfaces/gradient_mapping
+[3.069s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/custom_msg.h
+[3.077s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/custom_point.h
+[3.086s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_msg__functions.h
+[3.094s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_msg__struct.h
+[3.103s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_msg__type_support.h
+[3.112s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_point__functions.h
+[3.120s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_point__struct.h
+[3.127s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_point__type_support.h
+[3.135s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/rosidl_generator_c__visibility_control.h
+[3.143s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/library_path.sh
+[3.150s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/library_path.dsv
+[3.159s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[3.166s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[3.175s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.184s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/custom_msg.hpp
+[3.193s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/custom_point.hpp
+[3.201s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_msg__builder.hpp
+[3.209s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_msg__struct.hpp
+[3.218s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_msg__traits.hpp
+[3.226s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_point__builder.hpp
+[3.234s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_point__struct.hpp
+[3.241s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_point__traits.hpp
+[3.250s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[3.258s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[3.266s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.274s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[3.283s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[3.291s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.300s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[3.308s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/include/gradient_mapping/gradient_mapping/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[3.316s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/pythonpath.sh
+[3.324s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/pythonpath.dsv
+[3.331s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping-0.0.0-py3.10.egg-info/PKG-INFO
+[3.339s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.347s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.355s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping-0.0.0-py3.10.egg-info/top_level.txt
+[3.363s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/__init__.py
+[3.370s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/_gradient_mapping_s.ep.rosidl_typesupport_c.c
+[3.379s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/_gradient_mapping_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.388s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/_gradient_mapping_s.ep.rosidl_typesupport_introspection_c.c
+[3.396s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/gradient_mapping_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.404s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/gradient_mapping_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.412s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/gradient_mapping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.420s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/libgradient_mapping__rosidl_generator_py.so
+[3.427s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/msg/__init__.py
+[3.435s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/msg/_custom_msg.py
+[3.443s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/msg/_custom_msg_s.c
+[3.450s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/msg/_custom_point.py
+[3.458s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/msg/_custom_point_s.c
+[3.465s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/gradient_mapping_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.466s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/gradient_mapping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.466s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/gradient_mapping_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.466s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/msg/CustomPoint.idl
+[3.474s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/msg/CustomMsg.idl
+[3.483s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/msg/CustomPoint.msg
+[3.492s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/msg/CustomMsg.msg
+[3.500s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/gradient_mapping/run
+[3.508s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/ament_index/resource_index/package_run_dependencies/gradient_mapping
+[3.516s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/ament_index/resource_index/parent_prefix_path/gradient_mapping
+[3.524s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/ament_prefix_path.sh
+[3.532s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/ament_prefix_path.dsv
+[3.540s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/path.sh
+[3.547s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/environment/path.dsv
+[3.556s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/local_setup.bash
+[3.563s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/local_setup.sh
+[3.571s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/local_setup.zsh
+[3.579s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/local_setup.dsv
+[3.588s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/package.dsv
+[3.596s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/ament_index/resource_index/packages/gradient_mapping
+[3.605s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/rosidl_cmake-extras.cmake
+[3.613s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.621s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.629s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/ament_cmake_export_libraries-extras.cmake
+[3.636s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/ament_cmake_export_targets-extras.cmake
+[3.643s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.651s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.659s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/gradient_mappingConfig.cmake
+[3.667s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/gradient_mappingConfig-version.cmake
+[3.675s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/package.xml
+[3.684s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_generator_c.so
+[3.684s] -- Set runtime path of "/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_generator_c.so" to ""
+[3.684s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_typesupport_fastrtps_c.so
+[3.684s] -- Set runtime path of "/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_typesupport_fastrtps_c.so" to ""
+[3.684s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_typesupport_fastrtps_cpp.so
+[3.685s] -- Set runtime path of "/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.685s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_typesupport_introspection_c.so
+[3.685s] -- Set runtime path of "/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_typesupport_introspection_c.so" to ""
+[3.685s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_typesupport_c.so
+[3.686s] -- Set runtime path of "/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_typesupport_c.so" to ""
+[3.686s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_typesupport_introspection_cpp.so
+[3.686s] -- Set runtime path of "/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_typesupport_introspection_cpp.so" to ""
+[3.686s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_typesupport_cpp.so
+[3.687s] -- Set runtime path of "/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_typesupport_cpp.so" to ""
+[3.714s] Listing '/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping'...
+[3.714s] Compiling '/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/__init__.py'...
+[3.714s] Listing '/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/msg'...
+[3.714s] Compiling '/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/msg/__init__.py'...
+[3.714s] Compiling '/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/msg/_custom_msg.py'...
+[3.714s] Compiling '/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/local/lib/python3.10/dist-packages/gradient_mapping/msg/_custom_point.py'...
+[3.717s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_generator_py.so
+[3.718s] -- Set runtime path of "/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib/libgradient_mapping__rosidl_generator_py.so" to ""
+[3.718s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/export_gradient_mapping__rosidl_generator_cExport.cmake
+[3.719s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/export_gradient_mapping__rosidl_generator_cExport-noconfig.cmake
+[3.719s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/export_gradient_mapping__rosidl_typesupport_fastrtps_cExport.cmake
+[3.719s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/export_gradient_mapping__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.719s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/export_gradient_mapping__rosidl_generator_cppExport.cmake
+[3.719s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/export_gradient_mapping__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.720s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/export_gradient_mapping__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.720s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/gradient_mapping__rosidl_typesupport_introspection_cExport.cmake
+[3.720s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/gradient_mapping__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.720s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/gradient_mapping__rosidl_typesupport_cExport.cmake
+[3.720s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/gradient_mapping__rosidl_typesupport_cExport-noconfig.cmake
+[3.721s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/gradient_mapping__rosidl_typesupport_introspection_cppExport.cmake
+[3.721s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/gradient_mapping__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.721s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/gradient_mapping__rosidl_typesupport_cppExport.cmake
+[3.721s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/gradient_mapping__rosidl_typesupport_cppExport-noconfig.cmake
+[3.721s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/export_gradient_mapping__rosidl_generator_pyExport.cmake
+[3.721s] -- Installing: /workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/share/gradient_mapping/cmake/export_gradient_mapping__rosidl_generator_pyExport-noconfig.cmake
+[3.724s] Invoked command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping

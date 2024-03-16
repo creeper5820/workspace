@@ -1,1 +1,0 @@
-/root/mapping/build/fast_lio/rosidl_generator_py/fast_lio/msg/__init__.py

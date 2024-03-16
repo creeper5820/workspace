@@ -1,0 +1,135 @@
+[33mCMake Warning at /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake:104 (add_library):
+  Cannot generate a safe runtime search path for target
+  gradient_mapping__rosidl_typesupport_fastrtps_c because there is a cycle in
+  the constraint graph:
+
+    dir 0 is [/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping]
+      dir 1 must precede it due to runtime library [libgradient_mapping__rosidl_typesupport_fastrtps_c.so]
+    dir 1 is [/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib]
+      dir 0 must precede it due to runtime library [libgradient_mapping__rosidl_generator_c.so]
+    dir 2 is [/opt/ros/humble/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:23 (rosidl_generate_interfaces)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_c_generate_interfaces.cmake:100 (add_library):
+  Cannot generate a safe runtime search path for target
+  gradient_mapping__rosidl_typesupport_introspection_c because there is a
+  cycle in the constraint graph:
+
+    dir 0 is [/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping]
+      dir 1 must precede it due to runtime library [libgradient_mapping__rosidl_typesupport_introspection_c.so]
+    dir 1 is [/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib]
+      dir 0 must precede it due to runtime library [libgradient_mapping__rosidl_generator_c.so]
+    dir 2 is [/opt/ros/humble/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:23 (rosidl_generate_interfaces)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c_generate_interfaces.cmake:90 (add_library):
+  Cannot generate a safe runtime search path for target
+  gradient_mapping__rosidl_typesupport_c because there is a cycle in the
+  constraint graph:
+
+    dir 0 is [/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping]
+      dir 1 must precede it due to runtime library [libgradient_mapping__rosidl_typesupport_c.so]
+    dir 1 is [/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib]
+      dir 0 must precede it due to runtime library [libgradient_mapping__rosidl_generator_c.so]
+    dir 2 is [/opt/ros/humble/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:23 (rosidl_generate_interfaces)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):
+  Cannot generate a safe runtime search path for target
+  gradient_mapping__rosidl_generator_py because there is a cycle in the
+  constraint graph:
+
+    dir 0 is [/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping]
+      dir 1 must precede it due to runtime library [libgradient_mapping__rosidl_typesupport_c.so]
+    dir 1 is [/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib]
+      dir 0 must precede it due to runtime library [libgradient_mapping__rosidl_typesupport_c.so]
+    dir 2 is [/opt/ros/humble/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:23 (rosidl_generate_interfaces)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+  Cannot generate a safe runtime search path for target
+  gradient_mapping__rosidl_typesupport_fastrtps_c__pyext because there is a
+  cycle in the constraint graph:
+
+    dir 0 is [/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping/rosidl_generator_py/gradient_mapping]
+      dir 2 must precede it due to runtime library [libgradient_mapping__rosidl_generator_py.so]
+    dir 1 is [/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping]
+      dir 2 must precede it due to runtime library [libgradient_mapping__rosidl_typesupport_fastrtps_c.so]
+    dir 2 is [/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib]
+      dir 0 must precede it due to runtime library [libgradient_mapping__rosidl_generator_py.so]
+      dir 1 must precede it due to runtime library [libgradient_mapping__rosidl_typesupport_fastrtps_c.so]
+    dir 3 is [/opt/ros/humble/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:23 (rosidl_generate_interfaces)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+  Cannot generate a safe runtime search path for target
+  gradient_mapping__rosidl_typesupport_introspection_c__pyext because there
+  is a cycle in the constraint graph:
+
+    dir 0 is [/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping/rosidl_generator_py/gradient_mapping]
+      dir 2 must precede it due to runtime library [libgradient_mapping__rosidl_generator_py.so]
+    dir 1 is [/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping]
+      dir 2 must precede it due to runtime library [libgradient_mapping__rosidl_typesupport_fastrtps_c.so]
+    dir 2 is [/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib]
+      dir 0 must precede it due to runtime library [libgradient_mapping__rosidl_generator_py.so]
+      dir 1 must precede it due to runtime library [libgradient_mapping__rosidl_typesupport_introspection_c.so]
+    dir 3 is [/opt/ros/humble/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:23 (rosidl_generate_interfaces)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+  Cannot generate a safe runtime search path for target
+  gradient_mapping__rosidl_typesupport_c__pyext because there is a cycle in
+  the constraint graph:
+
+    dir 0 is [/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping/rosidl_generator_py/gradient_mapping]
+      dir 2 must precede it due to runtime library [libgradient_mapping__rosidl_generator_py.so]
+    dir 1 is [/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping]
+      dir 2 must precede it due to runtime library [libgradient_mapping__rosidl_typesupport_fastrtps_c.so]
+    dir 2 is [/workspaces/codespace/ros2/project/local_mapping/install/gradient_mapping/lib]
+      dir 0 must precede it due to runtime library [libgradient_mapping__rosidl_generator_py.so]
+      dir 1 must precede it due to runtime library [libgradient_mapping__rosidl_typesupport_c.so]
+    dir 3 is [/opt/ros/humble/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:23 (rosidl_generate_interfaces)
+
+[0m

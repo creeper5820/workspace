@@ -1,0 +1,50 @@
+[0.564s] Invoking command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/codespace/ros2/project/tutorial/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_async_client
+[1.584s] -- The C compiler identification is GNU 11.4.0
+[1.585s] -- The CXX compiler identification is GNU 11.4.0
+[1.585s] -- Detecting C compiler ABI info
+[1.585s] -- Detecting C compiler ABI info - done
+[1.586s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.587s] -- Detecting C compile features
+[1.587s] -- Detecting C compile features - done
+[1.588s] -- Detecting CXX compiler ABI info
+[1.589s] -- Detecting CXX compiler ABI info - done
+[1.589s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.589s] -- Detecting CXX compile features
+[1.589s] -- Detecting CXX compile features - done
+[1.589s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.589s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.589s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.590s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.590s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.590s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.590s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.604s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.802s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.878s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.880s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.040s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.096s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.180s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.193s] -- Looking for pthread.h
+[2.320s] -- Looking for pthread.h - found
+[2.320s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.456s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.457s] -- Found Threads: TRUE  
+[2.713s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.847s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.848s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.861s] -- Configured cppcheck include dirs: 
+[2.861s] -- Configured cppcheck exclude dirs and/or files: 
+[2.862s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.862s] -- Configured cpplint exclude dirs and/or files: 
+[2.863s] -- Added test 'lint_cmake' to check CMake code style
+[2.864s] -- Added test 'uncrustify' to check C / C++ code style
+[2.864s] -- Configured uncrustify additional arguments: 
+[2.864s] -- Added test 'xmllint' to check XML markup files
+[2.867s] -- Configuring done
+[2.929s] -- Generating done
+[2.931s] -- Build files have been written to: /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_async_client
+[3.328s] Invoked command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/codespace/ros2/project/tutorial/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_async_client
+[3.329s] Invoking command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_async_client -- -j16 -l16
+[3.612s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m

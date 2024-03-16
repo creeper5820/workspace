@@ -1,0 +1,45 @@
+[0.335s] Invoking command in '/workspaces/codespace/ros2/project/tutorial/src/examples/rclpy/topics/minimal_subscriber': AMENT_PREFIX_PATH=/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_subscriber PYTEST_ADDOPTS=--tb=short --junit-xml=/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_subscriber/pytest.xml --junit-prefix=examples_rclpy_minimal_subscriber -o cache_dir=/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_subscriber/.pytest_cache PYTHONPATH=/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_subscriber:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages /usr/bin/python3 -m pytest
+[0.632s] [1m============================= test session starts ==============================[0m
+[0.632s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.632s] cachedir: /workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_subscriber/.pytest_cache
+[0.632s] rootdir: /workspaces/codespace/ros2/project/tutorial/src/examples/rclpy, configfile: pytest.ini
+[0.632s] plugins: colcon-core-0.15.2
+[0.632s] [1mcollecting ... [0m[1m
+[0.633s] collected 0 items / 3 errors                                                   [0m
+[0.633s] 
+[0.633s] ==================================== ERRORS ====================================
+[0.633s] [31m[1m______ ERROR collecting topics/minimal_subscriber/test/test_copyright.py _______[0m
+[0.633s] [31mImportError while importing test module '/workspaces/codespace/ros2/project/tutorial/src/examples/rclpy/topics/minimal_subscriber/test/test_copyright.py'.
+[0.633s] Hint: make sure your test modules/packages have valid Python names.
+[0.633s] Traceback:
+[0.633s] /usr/lib/python3.10/importlib/__init__.py:126: in import_module
+[0.633s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.633s] test/test_copyright.py:15: in <module>
+[0.633s]     from ament_copyright.main import main
+[0.633s] E   ModuleNotFoundError: No module named 'ament_copyright'[0m
+[0.633s] [31m[1m________ ERROR collecting topics/minimal_subscriber/test/test_flake8.py ________[0m
+[0.633s] [31mImportError while importing test module '/workspaces/codespace/ros2/project/tutorial/src/examples/rclpy/topics/minimal_subscriber/test/test_flake8.py'.
+[0.633s] Hint: make sure your test modules/packages have valid Python names.
+[0.633s] Traceback:
+[0.633s] /usr/lib/python3.10/importlib/__init__.py:126: in import_module
+[0.633s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.633s] test/test_flake8.py:15: in <module>
+[0.633s]     from ament_flake8.main import main_with_errors
+[0.633s] E   ModuleNotFoundError: No module named 'ament_flake8'[0m
+[0.634s] [31m[1m________ ERROR collecting topics/minimal_subscriber/test/test_pep257.py ________[0m
+[0.634s] [31mImportError while importing test module '/workspaces/codespace/ros2/project/tutorial/src/examples/rclpy/topics/minimal_subscriber/test/test_pep257.py'.
+[0.634s] Hint: make sure your test modules/packages have valid Python names.
+[0.634s] Traceback:
+[0.634s] /usr/lib/python3.10/importlib/__init__.py:126: in import_module
+[0.634s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.634s] test/test_pep257.py:15: in <module>
+[0.634s]     from ament_pep257.main import main
+[0.634s] E   ModuleNotFoundError: No module named 'ament_pep257'[0m
+[0.634s] - generated xml file: /workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_subscriber/pytest.xml -
+[0.634s] =========================== short test summary info ============================
+[0.634s] ERROR test/test_copyright.py
+[0.634s] ERROR test/test_flake8.py
+[0.634s] ERROR test/test_pep257.py
+[0.634s] !!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+[0.634s] [31m============================== [31m[1m3 errors[0m[31m in 0.05s[0m[31m ===============================[0m
+[0.634s] Invoked command in '/workspaces/codespace/ros2/project/tutorial/src/examples/rclpy/topics/minimal_subscriber' returned '2': AMENT_PREFIX_PATH=/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_subscriber PYTEST_ADDOPTS=--tb=short --junit-xml=/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_subscriber/pytest.xml --junit-prefix=examples_rclpy_minimal_subscriber -o cache_dir=/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_subscriber/.pytest_cache PYTHONPATH=/workspaces/codespace/ros2/project/tutorial/build/examples_rclpy_minimal_subscriber:/workspaces/codespace/ros2/project/tutorial/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages /usr/bin/python3 -m pytest

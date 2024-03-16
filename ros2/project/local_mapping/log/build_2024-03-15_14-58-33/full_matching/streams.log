@@ -1,0 +1,39 @@
+[0.059s] Invoking command in '/workspaces/codespace/ros2/project/local_mapping/build/full_matching': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/full_matching --clean-first
+[0.076s] /usr/bin/gmake  -f CMakeFiles/Makefile2 clean
+[0.077s] gmake[1]: Entering directory '/workspaces/codespace/ros2/project/local_mapping/build/full_matching'
+[0.078s] /usr/bin/gmake  -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/clean
+[0.079s] gmake[2]: Entering directory '/workspaces/codespace/ros2/project/local_mapping/build/full_matching'
+[0.079s] /usr/bin/cmake -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+[0.088s] gmake[2]: Leaving directory '/workspaces/codespace/ros2/project/local_mapping/build/full_matching'
+[0.088s] /usr/bin/gmake  -f CMakeFiles/full_matching_uninstall.dir/build.make CMakeFiles/full_matching_uninstall.dir/clean
+[0.089s] gmake[2]: Entering directory '/workspaces/codespace/ros2/project/local_mapping/build/full_matching'
+[0.089s] /usr/bin/cmake -P CMakeFiles/full_matching_uninstall.dir/cmake_clean.cmake
+[0.098s] gmake[2]: Leaving directory '/workspaces/codespace/ros2/project/local_mapping/build/full_matching'
+[0.098s] gmake[1]: Leaving directory '/workspaces/codespace/ros2/project/local_mapping/build/full_matching'
+[0.112s] /usr/bin/cmake -S/workspaces/codespace/ros2/project/local_mapping/src/full_matching -B/workspaces/codespace/ros2/project/local_mapping/build/full_matching --check-build-system CMakeFiles/Makefile.cmake 0
+[0.124s] /usr/bin/cmake -E cmake_progress_start /workspaces/codespace/ros2/project/local_mapping/build/full_matching/CMakeFiles /workspaces/codespace/ros2/project/local_mapping/build/full_matching//CMakeFiles/progress.marks
+[0.133s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[0.134s] gmake[1]: Entering directory '/workspaces/codespace/ros2/project/local_mapping/build/full_matching'
+[0.134s] gmake[1]: Nothing to be done for 'all'.
+[0.135s] gmake[1]: Leaving directory '/workspaces/codespace/ros2/project/local_mapping/build/full_matching'
+[0.135s] /usr/bin/cmake -E cmake_progress_start /workspaces/codespace/ros2/project/local_mapping/build/full_matching/CMakeFiles 0
+[0.147s] Invoked command in '/workspaces/codespace/ros2/project/local_mapping/build/full_matching' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/full_matching --clean-first
+[0.192s] Invoking command in '/workspaces/codespace/ros2/project/local_mapping/build/full_matching': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/codespace/ros2/project/local_mapping/build/full_matching
+[0.199s] -- Install configuration: ""
+[0.199s] -- Execute custom install script
+[0.200s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/ament_index/resource_index/package_run_dependencies/full_matching
+[0.200s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/ament_index/resource_index/parent_prefix_path/full_matching
+[0.200s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/environment/ament_prefix_path.sh
+[0.200s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/environment/ament_prefix_path.dsv
+[0.200s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/environment/path.sh
+[0.200s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/environment/path.dsv
+[0.200s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/local_setup.bash
+[0.201s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/local_setup.sh
+[0.201s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/local_setup.zsh
+[0.201s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/local_setup.dsv
+[0.201s] -- Symlinking: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/package.dsv
+[0.211s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/ament_index/resource_index/packages/full_matching
+[0.211s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/cmake/full_matchingConfig.cmake
+[0.211s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/cmake/full_matchingConfig-version.cmake
+[0.211s] -- Up-to-date symlink: /workspaces/codespace/ros2/project/local_mapping/install/full_matching/share/full_matching/package.xml
+[0.214s] Invoked command in '/workspaces/codespace/ros2/project/local_mapping/build/full_matching' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/codespace/ros2/project/local_mapping/build/full_matching

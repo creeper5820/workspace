@@ -1,0 +1,10 @@
+[0.059s] Invoking command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping -- -j16 -l16
+[0.134s] [ 50%] [32mBuilding CXX object CMakeFiles/gradient_mapping.dir/src/main.cpp.o[0m
+[4.508s] [100%] [32m[1mLinking CXX executable gradient_mapping[0m
+[4.582s] /usr/bin/ld: CMakeFiles/gradient_mapping.dir/src/main.cpp.o: in function `void pcl::transformPointCloud<pcl::PointXYZ, float>(pcl::PointCloud<pcl::PointXYZ> const&, pcl::PointCloud<pcl::PointXYZ>&, Eigen::Matrix<float, 4, 4, 0, 4, 4> const&, bool)':
+[4.582s] main.cpp:(.text._ZN3pcl19transformPointCloudINS_8PointXYZEfEEvRKNS_10PointCloudIT_EERS4_RKN5Eigen6MatrixIT0_Li4ELi4ELi0ELi4ELi4EEEb[_ZN3pcl19transformPointCloudINS_8PointXYZEfEEvRKNS_10PointCloudIT_EERS4_RKN5Eigen6MatrixIT0_Li4ELi4ELi0ELi4ELi4EEEb]+0x39b): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+[4.587s] collect2: error: ld returned 1 exit status
+[4.589s] gmake[2]: *** [CMakeFiles/gradient_mapping.dir/build.make:167: gradient_mapping] Error 1
+[4.589s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gradient_mapping.dir/all] Error 2
+[4.589s] gmake: *** [Makefile:146: all] Error 2
+[4.592s] Invoked command in '/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping -- -j16 -l16

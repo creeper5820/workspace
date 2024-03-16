@@ -1,0 +1,70 @@
+[0.033s] Invoking command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set': /usr/bin/cmake --build /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set -- -j16 -l16
+[0.176s] [  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.216s] [  8%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[0.228s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[0.229s] [ 20%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[0.241s] [ 25%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[0.241s] [ 25%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[0.278s] [ 29%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[0.318s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[0.344s] [ 37%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[0.348s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[0.363s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[8.194s] [ 50%] [32m[1mLinking CXX executable wait_set_listener[0m
+[8.797s] [ 50%] Built target wait_set_listener
+[9.658s] [ 54%] [32m[1mLinking CXX executable wait_set_talker[0m
+[10.075s] [ 54%] Built target wait_set_talker
+[10.992s] [ 58%] [32m[1mLinking CXX shared library libtalker.so[0m
+[11.388s] [ 58%] Built target talker
+[15.552s] [ 62%] [32m[1mLinking CXX executable static_wait_set[0m
+[15.788s] [ 66%] [32m[1mLinking CXX executable wait_set[0m
+[15.934s] [ 66%] Built target static_wait_set
+[16.015s] [ 70%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[16.028s] [ 75%] [32m[1mLinking CXX shared library liblistener.so[0m
+[16.247s] [ 75%] Built target wait_set
+[16.371s] [ 79%] [32m[1mLinking CXX executable executor_random_order[0m
+[16.445s] [ 79%] Built target wait_set_topics_with_different_rates
+[16.480s] [ 79%] Built target listener
+[16.502s] [ 83%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[16.520s] [ 87%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[16.563s] [ 91%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[16.730s] [ 91%] Built target executor_random_order
+[16.911s] [ 91%] Built target wait_set_topics_and_timer
+[16.944s] [ 91%] Built target thread_safe_wait_set
+[16.960s] [ 95%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[17.308s] [ 95%] Built target wait_set_random_order
+[18.973s] [100%] [32m[1mLinking CXX executable wait_set_composed[0m
+[19.127s] [100%] Built target wait_set_composed
+[19.137s] Invoked command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set' returned '0': /usr/bin/cmake --build /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set -- -j16 -l16
+[19.186s] Invoking command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set': /usr/bin/cmake --install /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set
+[19.192s] -- Install configuration: ""
+[19.193s] -- Execute custom install script
+[19.193s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[19.202s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[19.210s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/lib/libtalker.so
+[19.218s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/lib/liblistener.so
+[19.226s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[19.234s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[19.241s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[19.248s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[19.256s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[19.263s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[19.270s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[19.278s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[19.286s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[19.294s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[19.301s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[19.310s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[19.318s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[19.326s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[19.334s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[19.341s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[19.348s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[19.356s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[19.363s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[19.372s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[19.379s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[19.387s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[19.395s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[19.403s] -- Symlinking: /workspaces/codespace/ros2/project/tutorial/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[19.414s] Invoked command in '/workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set' returned '0': /usr/bin/cmake --install /workspaces/codespace/ros2/project/tutorial/build/examples_rclcpp_wait_set

@@ -1,0 +1,1 @@
+/workspaces/codespace/ros2/project/local_mapping/build/messages/ament_cmake_python/messages/messages.egg-info/top_level.txt
