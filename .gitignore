@@ -1,10 +1,12 @@
 build
 devel
+log
 compile_commands.json
 
 .vscode
 .clangd
 .cache
+.log
 
 *.stl
 *.pcd

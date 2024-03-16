@@ -1,1 +1,0 @@
-Invoking command in '/workspaces/codespace/ros2/project/local_mapping/build/full_matching': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/codespace/ros2/project/local_mapping/src/full_matching -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/codespace/ros2/project/local_mapping/install/full_matching

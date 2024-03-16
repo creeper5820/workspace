@@ -1,1 +1,0 @@
-[0.069s] Invoking command in '/workspaces/codespace/ros2/project/local_mapping/build/full_matching': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/codespace/ros2/project/local_mapping/build/full_matching -- -j16 -l16

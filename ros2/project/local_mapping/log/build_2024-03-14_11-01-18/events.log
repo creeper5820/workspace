@@ -1,5 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000270] (-) JobUnselected: {'identifier': 'full_matching'}
-[0.000405] (-) JobUnselected: {'identifier': 'gradient_mapping'}
-[0.000456] (-) JobUnselected: {'identifier': 'rm_msgs'}
-[0.000603] (-) EventReactorShutdown: {}
