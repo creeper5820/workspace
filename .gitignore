@@ -1,6 +1,8 @@
 build
+install
 devel
 log
+files
 compile_commands.json
 
 .vscode

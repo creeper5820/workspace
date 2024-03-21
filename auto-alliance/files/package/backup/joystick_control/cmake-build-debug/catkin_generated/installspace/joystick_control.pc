@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: joystick_control
-Description: Description of joystick_control
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

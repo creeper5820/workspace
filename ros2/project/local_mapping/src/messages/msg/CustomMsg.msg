@@ -1,1 +1,1 @@
-uint8[900] gradient_map
+float32[] map

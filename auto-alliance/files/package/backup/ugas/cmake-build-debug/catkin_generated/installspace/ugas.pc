@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: ugas
-Description: Description of ugas
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

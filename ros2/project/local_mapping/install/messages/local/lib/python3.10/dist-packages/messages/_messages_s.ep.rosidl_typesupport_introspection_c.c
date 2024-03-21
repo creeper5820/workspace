@@ -1,1 +1,0 @@
-/workspaces/codespace/ros2/project/local_mapping/build/messages/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c

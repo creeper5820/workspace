@@ -17,17 +17,16 @@ file (GLOB_RECURSE PROJECT_SOURCE CONFIGURE_DEPENDS
   ${PROJECT_SOURCE_DIR}/src/*.c
 )
 
-# find_package(PCL REQUIRED)
 
 ament_auto_add_executable (
   ${PROJECT_NAME}
   ${PROJECT_SOURCE}
 )
 
-# include_directories(${PCL_INCLUDE_DIRS})
-# add_definitions(${PCL_DEFINITIONS})
-# link_directories(${PCL_LIBRARY_DIRS})
-# target_link_libraries(${PROJECT_NAME} ${PCL_LIBRARIES})
+target_link_libraries(
+  ${PROJECT_NAME} 
+  ${PCL_COMMON_LIBRARIES} 
+  ${PCL_LIBRARIES})
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 include_directories(${PROJECT_SOURCE_DIR}/src)

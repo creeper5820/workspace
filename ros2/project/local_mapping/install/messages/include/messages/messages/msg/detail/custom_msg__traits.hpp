@@ -1,1 +1,0 @@
-/workspaces/codespace/ros2/project/local_mapping/build/messages/rosidl_generator_cpp/messages/msg/detail/custom_msg__traits.hpp

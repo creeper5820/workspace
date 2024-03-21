@@ -1,1 +1,0 @@
-/workspaces/codespace/ros2/project/local_mapping/build/messages/rosidl_generator_py/messages/__init__.py

@@ -14,7 +14,12 @@
 
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
+  <depend>visualization_msgs</depend>
+
   <depend>livox_ros_driver2</depend>
+  <depend>messages</depend>
+
+  <depend>VTK</depend>
   <depend>PCL</depend>
   <depend>EIGEN</depend>
 

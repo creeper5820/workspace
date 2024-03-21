@@ -1,1 +1,0 @@
-/workspaces/codespace/ros2/project/local_mapping/build/messages/rosidl_typesupport_introspection_c/messages/msg/rosidl_typesupport_introspection_c__visibility_control.h

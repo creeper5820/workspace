@@ -1,1 +1,0 @@
-/workspaces/codespace/ros2/project/local_mapping/src/messages/msg/CustomPoint.msg

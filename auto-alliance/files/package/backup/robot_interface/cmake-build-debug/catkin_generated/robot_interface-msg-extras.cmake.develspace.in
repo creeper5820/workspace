@@ -1,2 +1,0 @@
-set(robot_interface_MESSAGE_FILES "/home/s/lio_ws/src/robot_interface/msg/Command.msg")
-set(robot_interface_SERVICE_FILES "")

@@ -10,7 +10,6 @@
 #include <pcl/point_types.h>
 
 #include <eigen3/Eigen/Dense>
-#include <eigen3/Eigen/IterativeLinearSolvers>
 
 #include "livox_ros_driver2/msg/custom_msg.hpp"
 #include "livox_ros_driver2/msg/custom_point.hpp"
@@ -32,13 +31,16 @@
 // uint8[3]  rsvd            # Reserved use
 // CustomPoint[] points      # Pointcloud data
 
+namespace local {
+
 class Transform {
 public:
-    using PointT = pcl::PointXYZ;
+    using PointType = pcl::PointXYZ;
+    using MapType = Eigen::Matrix<float, 30, 30>;
 
     Transform(const Eigen::Affine3f& transform)
         : transform_(transform)
-        , cloud_(new pcl::PointCloud<PointT>())
+        , cloud_(new pcl::PointCloud<PointType>())
     {
     }
 
@@ -46,7 +48,7 @@ public:
     {
         cloud_->clear();
 
-        auto point = PointT();
+        auto point = PointType();
 
         for (auto i : msg.points) {
             point.x = i.x;
@@ -56,10 +58,9 @@ public:
         }
     }
 
-    std::unique_ptr<Eigen::Matrix<float, 30, 30>> make_map()
+    std::shared_ptr<MapType> make_map()
     {
-        auto map = std::make_unique<Eigen::Matrix<float, 30, 30>>();
-
+        auto map = std::make_shared<MapType>();
         pcl::transformPointCloud(*cloud_, *cloud_, transform_);
 
         for (auto i : cloud_->points) {
@@ -67,13 +68,9 @@ public:
                 && is_in(i.x, -1.5, 1.5)
                 && is_in(i.y, -1.5, 1.5)
                 && is_in(i.z, -1.0, 3.0)) {
-
                 (*map)(static_cast<int>((i.x + 1.5) * 10), static_cast<int>((i.y + 1.5) * 10)) += i.z;
             }
         }
-
-        // auto conjugate = Eigen::ConjugateGradient<Eigen::Matrix<float, 30, 30>, Eigen::Upper>();
-
         return map;
     }
 
@@ -84,11 +81,13 @@ public:
 
 private:
     Eigen::Affine3f transform_;
-    pcl::PointCloud<PointT>::Ptr cloud_;
+    pcl::PointCloud<PointType>::Ptr cloud_;
 
     template <typename T1, typename T2>
     bool is_in(const T1& value, const T2&& left, const T2&& right)
     {
         return value > left && value < right;
     }
-};
+
+}; // Transform
+} // local

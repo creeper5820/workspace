@@ -1,1 +1,0 @@
-/workspaces/codespace/ros2/project/local_mapping/build/messages/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,5 +1,0 @@
-KERNEL=="ttyUSB*", SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523",ATTRS{devpath}=="5", MODE:="0777", SYMLINK+="CH340_5"
-KERNEL=="ttyUSB*", SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523",ATTRS{devpath}=="1", MODE:="0777", SYMLINK+="CH340_1"
-KERNEL=="ttyUSB*", SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523",ATTRS{devpath}=="2", MODE:="0777", SYMLINK+="CH340_2"
-KERNEL=="ttyUSB*", SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523",ATTRS{devpath}=="3", MODE:="0777", SYMLINK+="CH340_3"
-KERNEL=="ttyUSB*", SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523",ATTRS{devpath}=="4", MODE:="0777", SYMLINK+="CH340_4"

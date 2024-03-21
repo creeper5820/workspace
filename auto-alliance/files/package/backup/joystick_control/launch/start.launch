@@ -1,9 +1,0 @@
-<launch>
-    <node pkg="joystick_control" type="joystick_control_node" name="joystick_control" output="screen">
-      <!-- set a private parameter for the node -->
-      <param name="dev" type="string" value="/dev/input/js0" />
-      <param name="linearMax" type="double" value="1.0" />
-      <param name="angularMax" type="double" value="1.0" />
-    </node>
-
-</launch>

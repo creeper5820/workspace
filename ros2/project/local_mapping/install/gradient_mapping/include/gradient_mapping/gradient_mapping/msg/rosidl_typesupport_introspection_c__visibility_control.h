@@ -1,1 +1,0 @@
-/workspaces/codespace/ros2/project/local_mapping/build/gradient_mapping/rosidl_typesupport_introspection_c/gradient_mapping/msg/rosidl_typesupport_introspection_c__visibility_control.h

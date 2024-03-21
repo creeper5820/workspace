@@ -9,20 +9,6 @@ RUN apt-get install -y \
     zsh vim wget curl unzip \
     cmake make gcc g++ git
 
-# install oh my zsh & change theme to af-magic
-RUN wget https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh -O zsh-install.sh && \
-    chmod +x ./zsh-install.sh && ./zsh-install.sh && \
-    sed -i 's/ZSH_THEME=\"[a-z0-9\-]*\"/ZSH_THEME="af-magic"/g' ~/.zshrc && \
-    rm ./zsh-install.sh
-
-# develop tools install
-RUN apt-get install -y \
-    zsh clang-format-15 clangd-15
-
-# foxglove bridge install
-RUN apt-get -y install \
-    ros-$ROS_DISTRO-foxglove-bridge 
-
 # copy all the packages
 COPY package /root/package
 
@@ -45,8 +31,22 @@ RUN cd /root/package/fast_lio && \
     source /root/package/driver/install/setup.bash && \
     colcon build --symlink-install
 
+FROM ros2 as ros2-dev
+
+# develop tools install
+RUN apt-get install -y \
+    zsh clang-format-15
+
+# install oh my zsh & change theme to af-magic
+RUN wget https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh -O zsh-install.sh && \
+    chmod +x ./zsh-install.sh && ./zsh-install.sh && \
+    sed -i 's/ZSH_THEME=\"[a-z0-9\-]*\"/ZSH_THEME="af-magic"/g' ~/.zshrc && \
+    rm ./zsh-install.sh
+
+RUN apt-get update && apt-get -y install \
+    lsb-release software-properties-common gnupg zsh sudo && \
+    echo -e "\n" | bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"
+
 RUN chsh root -s /bin/zsh
 
-RUN ln -s /usr/bin/clangd-15 /usr/bin/clangd && \
-    ln -s /usr/bin/clang-format-15 /usr/bin/clang-format
 

@@ -1,1 +1,0 @@
-/workspaces/codespace/ros2/project/tutorial/build/hello_world/ament_cmake_environment_hooks/local_setup.zsh
